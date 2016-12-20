@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)https://dash.generalassemb.ly/projects/annas-website-1 -->
+<html class="projects-show" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="./Dash prework homework 1_files/bf4f7a4ef2"></script><script src="./Dash prework homework 1_files/nr-998.min.js"></script><script type="text/javascript" async="" src="./Dash prework homework 1_files/ga.js"></script><script type="text/javascript" async="" src="./Dash prework homework 1_files/track.js" id="cio-tracker" data-site-id="4a4357059a4ba05b1a2c"></script><script async="" src="./Dash prework homework 1_files/fbevents.js"></script><script type="text/javascript" async="" src="./Dash prework homework 1_files/analytics.min.js"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"bf4f7a4ef2","applicationID":"6146642","transactionName":"cA4KTURWXl8GRR4VQ1wLAVpCSh1AC1hG","queueTime":0,"applicationTime":317,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-998.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+  <title>Learn to code HTML, CSS, and JavaScript with Dash</title>
+  <meta name="description" content="Dash is a fun and free online course from General Assembly that teaches you how to program with the basics of web development through projects you can do right in your browser. Get started today!">
+    <link rel="stylesheet" media="screen" href="./Dash prework homework 1_files/application-6f0b73467cd7e54a30d75a6914c1101c4f9dcfe0d675ee630153bb3ad7d7cce0.css">
+  <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="YyqUO6T8pjJFEInYRlfwF2L8DJ3ano9WyHPZXApwlUx1WvdN60OenW2dmfY+C/bsjNmv3vQZ9JUmkh1KiQ8aRg==">
+  <script src="./Dash prework homework 1_files/honeybadger.min.js" type="text/javascript" data-api_key="f16da1ab" data-environment="production"></script>
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<style id="ace_editor">.ace_editor {position: relative;overflow: hidden;font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;font-size: 12px;line-height: normal;color: black;-ms-user-select: none;-moz-user-select: none;-webkit-user-select: none;user-select: none;}.ace_scroller {position: absolute;overflow: hidden;top: 0;bottom: 0;background-color: inherit;}.ace_content {position: absolute;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;cursor: text;}.ace_dragging, .ace_dragging * {cursor: move !important;}.ace_dragging .ace_scroller:before{position: absolute;top: 0;left: 0;right: 0;bottom: 0;content: '';background: rgba(250, 250, 250, 0.01);z-index: 1000;}.ace_dragging.ace_dark .ace_scroller:before{background: rgba(0, 0, 0, 0.01);}.ace_selecting, .ace_selecting * {cursor: text !important;}.ace_gutter {position: absolute;overflow : hidden;width: auto;top: 0;bottom: 0;left: 0;cursor: default;z-index: 4;}.ace_gutter-active-line {position: absolute;left: 0;right: 0;}.ace_scroller.ace_scroll-left {box-shadow: 17px 0 16px -16px rgba(0, 0, 0, 0.4) inset;}.ace_gutter-cell {padding-left: 19px;padding-right: 6px;background-repeat: no-repeat;}.ace_gutter-cell.ace_error {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QUM2OEZDQTQ4RTU0MTFFMUEzM0VFRTM2RUY1M0RBMjYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QUM2OEZDQTU4RTU0MTFFMUEzM0VFRTM2RUY1M0RBMjYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBQzY4RkNBMjhFNTQxMUUxQTMzRUVFMzZFRjUzREEyNiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBQzY4RkNBMzhFNTQxMUUxQTMzRUVFMzZFRjUzREEyNiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PkgXxbAAAAJbSURBVHjapFNNaBNBFH4zs5vdZLP5sQmNpT82QY209heh1ioWisaDRcSKF0WKJ0GQnrzrxasHsR6EnlrwD0TagxJabaVEpFYxLWlLSS822tr87m66ccfd2GKyVhA6MMybgfe97/vmPUQphd0sZjto9XIn9OOsvlu2nkqRzVU+6vvlzPf8W6bk8dxQ0NPbxAALgCgg2JkaQuhzQau/El0zbmUA7U0Es8v2CiYmKQJHGO1QICCLoqilMhkmurDAyapKgqItezi/USRdJqEYY4D5jCy03ht2yMkkvL91jTTX10qzyyu2hruPRN7jgbH+EOsXcMLgYiThEgAMhABW85oqy1DXdRIdvP1AHJ2acQXvDIrVHcdQNrEKNYSVMSZGMjEzIIAwDXIo+6G/FxcGnzkC3T2oMhLjre49sBB+RRcHLqdafK6sYdE/GGBwU1VpFNj0aN8pJbe+BkZyevUrvLl6Xmm0W9IuTc0DxrDNAJd5oEvI/KRsNC3bQyNjPO9yQ1YHcfj2QvfQc/5TUhJTBc2iM0U7AWDQtc1nJHvD/cfO2s7jaGkiTEfa/Ep8coLu7zmNmh8+dc5lZDuUeFAGUNA/OY6JVaypQ0vjr7XYjUvJM37vt+j1vuTK5DgVfVUoTjVe+y3/LxMxY2GgU+CSLy4cpfsYorRXuXIOi0Vt40h67uZFTdIo6nLaZcwUJWAzwNS0tBnqqKzQDnjdG/iPyZxo46HaKUpbvYkj8qYRTZsBhge+JHhZyh0x9b95JqjVJkT084kZIPwu/mPWqPgfQ5jXh2+92Ay7HedfAgwA6KDWafb4w3cAAAAASUVORK5CYII=");background-repeat: no-repeat;background-position: 2px center;}.ace_gutter-cell.ace_warning {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QUM2OEZDQTg4RTU0MTFFMUEzM0VFRTM2RUY1M0RBMjYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QUM2OEZDQTk4RTU0MTFFMUEzM0VFRTM2RUY1M0RBMjYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBQzY4RkNBNjhFNTQxMUUxQTMzRUVFMzZFRjUzREEyNiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBQzY4RkNBNzhFNTQxMUUxQTMzRUVFMzZFRjUzREEyNiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pgd7PfIAAAGmSURBVHjaYvr//z8DJZiJgUIANoCRkREb9gLiSVAaQx4OQM7AAkwd7XU2/v++/rOttdYGEB9dASEvOMydGKfH8Gv/p4XTkvRBfLxeQAP+1cUhXopyvzhP7P/IoSj7g7Mw09cNKO6J1QQ0L4gICPIv/veg/8W+JdFvQNLHVsW9/nmn9zk7B+cCkDwhL7gt6knSZnx9/LuCEOcvkIAMP+cvto9nfqyZmmUAksfnBUtbM60gX/3/kgyv3/xSFOL5DZT+L8vP+Yfh5cvfPvp/xUHyQHXGyAYwgpwBjZYFT3Y1OEl/OfCH4ffv3wzc4iwMvNIsDJ+f/mH4+vIPAxsb631WW0Yln6ZpQLXdMK/DXGDflh+sIv37EivD5x//Gb7+YWT4y86sl7BCCkSD+Z++/1dkvsFRl+HnD1Rvje4F8whjMXmGj58YGf5zsDMwcnAwfPvKcml62DsQDeaDxN+/Y0qwlpEHqrdB94IRNIDUgfgfKJChGK4OikEW3gTiXUB950ASLFAF54AC94A0G9QAfOnmF9DCDzABFqS08IHYDIScdijOjQABBgC+/9awBH96jwAAAABJRU5ErkJggg==");background-position: 2px center;}.ace_gutter-cell.ace_info {background-image: url("data:image/gif;base64,R0lGODlhEAAQAMQAAAAAAEFBQVJSUl5eXmRkZGtra39/f4WFhYmJiZGRkaampry8vMPDw8zMzNXV1dzc3OTk5Orq6vDw8P///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAkAABQALAAAAAAQABAAAAUuICWOZGmeaBml5XGwFCQSBGyXRSAwtqQIiRuiwIM5BoYVbEFIyGCQoeJGrVptIQA7");background-position: 2px center;}.ace_dark .ace_gutter-cell.ace_info {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpGRTk5MTVGREIxNDkxMUUxOTc5Q0FFREQyMTNGMjBFQyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpGRTk5MTVGRUIxNDkxMUUxOTc5Q0FFREQyMTNGMjBFQyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZFOTkxNUZCQjE0OTExRTE5NzlDQUVERDIxM0YyMEVDIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkZFOTkxNUZDQjE0OTExRTE5NzlDQUVERDIxM0YyMEVDIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+SIDkjAAAAJ1JREFUeNpi/P//PwMlgImBQkB7A6qrq/+DMC55FkIGKCoq4pVnpFkgTp069f/+/fv/r1u37r+tre1/kg0A+ptn9uzZYLaRkRHpLvjw4cNXWVlZhufPnzOcO3eOdAO0tbVPAjHDmzdvGA4fPsxIsgGSkpJmv379Ynj37h2DjIyMCMkG3LhxQ/T27dsMampqDHZ2dq/pH41DxwCAAAMAFdc68dUsFZgAAAAASUVORK5CYII=");}.ace_scrollbar {position: absolute;overflow-x: hidden;overflow-y: auto;right: 0;top: 0;bottom: 0;z-index: 6;}.ace_scrollbar-inner {position: absolute;cursor: text;left: 0;top: 0;}.ace_scrollbar-h {position: absolute;overflow-x: auto;overflow-y: hidden;right: 0;left: 0;bottom: 0;z-index: 6;}.ace_print-margin {position: absolute;height: 100%;}.ace_text-input {position: absolute;z-index: 0;width: 0.5em;height: 1em;opacity: 0;background: transparent;-moz-appearance: none;appearance: none;border: none;resize: none;outline: none;overflow: hidden;font: inherit;padding: 0 1px;margin: 0 -1px;text-indent: -1em;}.ace_text-input.ace_composition {background: #f8f8f8;color: #111;z-index: 1000;opacity: 1;text-indent: 0;}.ace_layer {z-index: 1;position: absolute;overflow: hidden;white-space: nowrap;height: 100%;width: 100%;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;/* setting pointer-events: auto; on node under the mouse, which changesduring scroll, will break mouse wheel scrolling in Safari */pointer-events: none;}.ace_gutter-layer {position: relative;width: auto;text-align: right;pointer-events: auto;}.ace_text-layer {font: inherit !important;}.ace_cjk {display: inline-block;text-align: center;}.ace_cursor-layer {z-index: 4;}.ace_cursor {z-index: 4;position: absolute;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;border-left: 2px solid}.ace_slim-cursors .ace_cursor {border-left-width: 1px;}.ace_overwrite-cursors .ace_cursor {border-left-width: 0px;border-bottom: 1px solid;}.ace_hidden-cursors .ace_cursor {opacity: 0.2;}.ace_smooth-blinking .ace_cursor {-moz-transition: opacity 0.18s;-webkit-transition: opacity 0.18s;-o-transition: opacity 0.18s;-ms-transition: opacity 0.18s;transition: opacity 0.18s;}.ace_cursor[style*="opacity: 0"]{-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";}.ace_editor.ace_multiselect .ace_cursor {border-left-width: 1px;}.ace_line {white-space: nowrap;}.ace_marker-layer .ace_step, .ace_marker-layer .ace_stack {position: absolute;z-index: 3;}.ace_marker-layer .ace_selection {position: absolute;z-index: 5;}.ace_marker-layer .ace_bracket {position: absolute;z-index: 6;}.ace_marker-layer .ace_active-line {position: absolute;z-index: 2;}.ace_marker-layer .ace_selected-word {position: absolute;z-index: 4;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}.ace_line .ace_fold {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;display: inline-block;height: 11px;margin-top: -2px;vertical-align: middle;background-image:url("data:image/png,%89PNG%0D%0A%1A%0A%00%00%00%0DIHDR%00%00%00%11%00%00%00%09%08%06%00%00%00%D4%E8%C7%0C%00%00%03%1EiCCPICC%20Profile%00%00x%01%85T%DFk%D3P%14%FE%DAe%9D%B0%E1%8B%3Ag%11%09%3Eh%91ndStC%9C%B6kW%BA%CDZ%EA6%B7!H%9B%A6m%5C%9A%C6%24%ED~%B0%07%D9%8Bo%3A%C5w%F1%07%3E%F9%07%0C%D9%83o%7B%92%0D%C6%14a%F8%AC%88%22L%F6%22%B3%9E%9B4M'S%03%B9%F7%BB%DF%F9%EE9'%E7%E4%5E%A0%F9qZ%D3%14%2F%0F%14USO%C5%C2%FC%C4%E4%14%DF%F2%01%5E%1CC%2B%FChM%8B%86%16J%26G%40%0F%D3%B2y%EF%B3%F3%0E%1E%C6lt%EEo%DF%AB%FEc%D5%9A%95%0C%11%F0%1C%20%BE%945%C4%22%E1Y%A0i%5C%D4t%13%E0%D6%89%EF%9D15%C2%CDLsX%A7%04%09%1Fg8oc%81%E1%8C%8D%23%96f45%40%9A%09%C2%07%C5B%3AK%B8%408%98i%E0%F3%0D%D8%CE%81%14%E4'%26%A9%92.%8B%3C%ABER%2F%E5dE%B2%0C%F6%F0%1Fs%83%F2_%B0%A8%94%E9%9B%AD%E7%10%8Dm%9A%19N%D1%7C%8A%DE%1F9%7Dp%8C%E6%00%D5%C1%3F_%18%BDA%B8%9DpX6%E3%A35~B%CD%24%AE%11%26%BD%E7%EEti%98%EDe%9A%97Y)%12%25%1C%24%BCbT%AE3li%E6%0B%03%89%9A%E6%D3%ED%F4P%92%B0%9F4%BF43Y%F3%E3%EDP%95%04%EB1%C5%F5%F6KF%F4%BA%BD%D7%DB%91%93%07%E35%3E%A7)%D6%7F%40%FE%BD%F7%F5r%8A%E5y%92%F0%EB%B4%1E%8D%D5%F4%5B%92%3AV%DB%DB%E4%CD%A6%23%C3%C4wQ%3F%03HB%82%8E%1Cd(%E0%91B%0Ca%9Ac%C4%AA%F8L%16%19%22J%A4%D2itTy%B28%D6%3B(%93%96%ED%1CGx%C9_%0E%B8%5E%16%F5%5B%B2%B8%F6%E0%FB%9E%DD%25%D7%8E%BC%15%85%C5%B7%A3%D8Q%ED%B5%81%E9%BA%B2%13%9A%1B%7Fua%A5%A3n%E17%B9%E5%9B%1Bm%AB%0B%08Q%FE%8A%E5%B1H%5Ee%CAO%82Q%D7u6%E6%90S%97%FCu%0B%CF2%94%EE%25v%12X%0C%BA%AC%F0%5E%F8*l%0AO%85%17%C2%97%BF%D4%C8%CE%DE%AD%11%CB%80q%2C%3E%AB%9ES%CD%C6%EC%25%D2L%D2%EBd%B8%BF%8A%F5B%C6%18%F9%901CZ%9D%BE%24M%9C%8A9%F2%DAP%0B'%06w%82%EB%E6%E2%5C%2F%D7%07%9E%BB%CC%5D%E1%FA%B9%08%AD.r%23%8E%C2%17%F5E%7C!%F0%BE3%BE%3E_%B7o%88a%A7%DB%BE%D3d%EB%A31Z%EB%BB%D3%91%BA%A2%B1z%94%8F%DB'%F6%3D%8E%AA%13%19%B2%B1%BE%B1~V%08%2B%B4%A2cjJ%B3tO%00%03%25mN%97%F3%05%93%EF%11%84%0B%7C%88%AE-%89%8F%ABbW%90O%2B%0Ao%99%0C%5E%97%0CI%AFH%D9.%B0%3B%8F%ED%03%B6S%D6%5D%E6i_s9%F3*p%E9%1B%FD%C3%EB.7U%06%5E%19%C0%D1s.%17%A03u%E4%09%B0%7C%5E%2C%EB%15%DB%1F%3C%9E%B7%80%91%3B%DBc%AD%3Dma%BA%8B%3EV%AB%DBt.%5B%1E%01%BB%0F%AB%D5%9F%CF%AA%D5%DD%E7%E4%7F%0Bx%A3%FC%06%A9%23%0A%D6%C2%A1_2%00%00%00%09pHYs%00%00%0B%13%00%00%0B%13%01%00%9A%9C%18%00%00%00%B5IDAT(%15%A5%91%3D%0E%02!%10%85ac%E1%05%D6%CE%D6%C6%CE%D2%E8%ED%CD%DE%C0%C6%D6N.%E0V%F8%3D%9Ca%891XH%C2%BE%D9y%3F%90!%E6%9C%C3%BFk%E5%011%C6-%F5%C8N%04%DF%BD%FF%89%DFt%83DN%60%3E%F3%AB%A0%DE%1A%5Dg%BE%10Q%97%1B%40%9C%A8o%10%8F%5E%828%B4%1B%60%87%F6%02%26%85%1Ch%1E%C1%2B%5Bk%FF%86%EE%B7j%09%9A%DA%9B%ACe%A3%F9%EC%DA!9%B4%D5%A6%81%86%86%98%CC%3C%5B%40%FA%81%B3%E9%CB%23%94%C16Azo%05%D4%E1%C1%95a%3B%8A'%A0%E8%CC%17%22%85%1D%BA%00%A2%FA%DC%0A%94%D1%D1%8D%8B%3A%84%17B%C7%60%1A%25Z%FC%8D%00%00%00%00IEND%AEB%60%82"),url("data:image/png,%89PNG%0D%0A%1A%0A%00%00%00%0DIHDR%00%00%00%05%00%00%007%08%06%00%00%00%C4%DD%80C%00%00%03%1EiCCPICC%20Profile%00%00x%01%85T%DFk%D3P%14%FE%DAe%9D%B0%E1%8B%3Ag%11%09%3Eh%91ndStC%9C%B6kW%BA%CDZ%EA6%B7!H%9B%A6m%5C%9A%C6%24%ED~%B0%07%D9%8Bo%3A%C5w%F1%07%3E%F9%07%0C%D9%83o%7B%92%0D%C6%14a%F8%AC%88%22L%F6%22%B3%9E%9B4M'S%03%B9%F7%BB%DF%F9%EE9'%E7%E4%5E%A0%F9qZ%D3%14%2F%0F%14USO%C5%C2%FC%C4%E4%14%DF%F2%01%5E%1CC%2B%FChM%8B%86%16J%26G%40%0F%D3%B2y%EF%B3%F3%0E%1E%C6lt%EEo%DF%AB%FEc%D5%9A%95%0C%11%F0%1C%20%BE%945%C4%22%E1Y%A0i%5C%D4t%13%E0%D6%89%EF%9D15%C2%CDLsX%A7%04%09%1Fg8oc%81%E1%8C%8D%23%96f45%40%9A%09%C2%07%C5B%3AK%B8%408%98i%E0%F3%0D%D8%CE%81%14%E4'%26%A9%92.%8B%3C%ABER%2F%E5dE%B2%0C%F6%F0%1Fs%83%F2_%B0%A8%94%E9%9B%AD%E7%10%8Dm%9A%19N%D1%7C%8A%DE%1F9%7Dp%8C%E6%00%D5%C1%3F_%18%BDA%B8%9DpX6%E3%A35~B%CD%24%AE%11%26%BD%E7%EEti%98%EDe%9A%97Y)%12%25%1C%24%BCbT%AE3li%E6%0B%03%89%9A%E6%D3%ED%F4P%92%B0%9F4%BF43Y%F3%E3%EDP%95%04%EB1%C5%F5%F6KF%F4%BA%BD%D7%DB%91%93%07%E35%3E%A7)%D6%7F%40%FE%BD%F7%F5r%8A%E5y%92%F0%EB%B4%1E%8D%D5%F4%5B%92%3AV%DB%DB%E4%CD%A6%23%C3%C4wQ%3F%03HB%82%8E%1Cd(%E0%91B%0Ca%9Ac%C4%AA%F8L%16%19%22J%A4%D2itTy%B28%D6%3B(%93%96%ED%1CGx%C9_%0E%B8%5E%16%F5%5B%B2%B8%F6%E0%FB%9E%DD%25%D7%8E%BC%15%85%C5%B7%A3%D8Q%ED%B5%81%E9%BA%B2%13%9A%1B%7Fua%A5%A3n%E17%B9%E5%9B%1Bm%AB%0B%08Q%FE%8A%E5%B1H%5Ee%CAO%82Q%D7u6%E6%90S%97%FCu%0B%CF2%94%EE%25v%12X%0C%BA%AC%F0%5E%F8*l%0AO%85%17%C2%97%BF%D4%C8%CE%DE%AD%11%CB%80q%2C%3E%AB%9ES%CD%C6%EC%25%D2L%D2%EBd%B8%BF%8A%F5B%C6%18%F9%901CZ%9D%BE%24M%9C%8A9%F2%DAP%0B'%06w%82%EB%E6%E2%5C%2F%D7%07%9E%BB%CC%5D%E1%FA%B9%08%AD.r%23%8E%C2%17%F5E%7C!%F0%BE3%BE%3E_%B7o%88a%A7%DB%BE%D3d%EB%A31Z%EB%BB%D3%91%BA%A2%B1z%94%8F%DB'%F6%3D%8E%AA%13%19%B2%B1%BE%B1~V%08%2B%B4%A2cjJ%B3tO%00%03%25mN%97%F3%05%93%EF%11%84%0B%7C%88%AE-%89%8F%ABbW%90O%2B%0Ao%99%0C%5E%97%0CI%AFH%D9.%B0%3B%8F%ED%03%B6S%D6%5D%E6i_s9%F3*p%E9%1B%FD%C3%EB.7U%06%5E%19%C0%D1s.%17%A03u%E4%09%B0%7C%5E%2C%EB%15%DB%1F%3C%9E%B7%80%91%3B%DBc%AD%3Dma%BA%8B%3EV%AB%DBt.%5B%1E%01%BB%0F%AB%D5%9F%CF%AA%D5%DD%E7%E4%7F%0Bx%A3%FC%06%A9%23%0A%D6%C2%A1_2%00%00%00%09pHYs%00%00%0B%13%00%00%0B%13%01%00%9A%9C%18%00%00%00%3AIDAT8%11c%FC%FF%FF%7F%18%03%1A%60%01%F2%3F%A0%891%80%04%FF%11-%F8%17%9BJ%E2%05%B1ZD%81v%26t%E7%80%F8%A3%82h%A12%1A%20%A3%01%02%0F%01%BA%25%06%00%19%C0%0D%AEF%D5%3ES%00%00%00%00IEND%AEB%60%82");background-repeat: no-repeat, repeat-x;background-position: center center, top left;color: transparent;border: 1px solid black;-moz-border-radius: 2px;-webkit-border-radius: 2px;border-radius: 2px;cursor: pointer;pointer-events: auto;}.ace_dark .ace_fold {}.ace_fold:hover{background-image:url("data:image/png,%89PNG%0D%0A%1A%0A%00%00%00%0DIHDR%00%00%00%11%00%00%00%09%08%06%00%00%00%D4%E8%C7%0C%00%00%03%1EiCCPICC%20Profile%00%00x%01%85T%DFk%D3P%14%FE%DAe%9D%B0%E1%8B%3Ag%11%09%3Eh%91ndStC%9C%B6kW%BA%CDZ%EA6%B7!H%9B%A6m%5C%9A%C6%24%ED~%B0%07%D9%8Bo%3A%C5w%F1%07%3E%F9%07%0C%D9%83o%7B%92%0D%C6%14a%F8%AC%88%22L%F6%22%B3%9E%9B4M'S%03%B9%F7%BB%DF%F9%EE9'%E7%E4%5E%A0%F9qZ%D3%14%2F%0F%14USO%C5%C2%FC%C4%E4%14%DF%F2%01%5E%1CC%2B%FChM%8B%86%16J%26G%40%0F%D3%B2y%EF%B3%F3%0E%1E%C6lt%EEo%DF%AB%FEc%D5%9A%95%0C%11%F0%1C%20%BE%945%C4%22%E1Y%A0i%5C%D4t%13%E0%D6%89%EF%9D15%C2%CDLsX%A7%04%09%1Fg8oc%81%E1%8C%8D%23%96f45%40%9A%09%C2%07%C5B%3AK%B8%408%98i%E0%F3%0D%D8%CE%81%14%E4'%26%A9%92.%8B%3C%ABER%2F%E5dE%B2%0C%F6%F0%1Fs%83%F2_%B0%A8%94%E9%9B%AD%E7%10%8Dm%9A%19N%D1%7C%8A%DE%1F9%7Dp%8C%E6%00%D5%C1%3F_%18%BDA%B8%9DpX6%E3%A35~B%CD%24%AE%11%26%BD%E7%EEti%98%EDe%9A%97Y)%12%25%1C%24%BCbT%AE3li%E6%0B%03%89%9A%E6%D3%ED%F4P%92%B0%9F4%BF43Y%F3%E3%EDP%95%04%EB1%C5%F5%F6KF%F4%BA%BD%D7%DB%91%93%07%E35%3E%A7)%D6%7F%40%FE%BD%F7%F5r%8A%E5y%92%F0%EB%B4%1E%8D%D5%F4%5B%92%3AV%DB%DB%E4%CD%A6%23%C3%C4wQ%3F%03HB%82%8E%1Cd(%E0%91B%0Ca%9Ac%C4%AA%F8L%16%19%22J%A4%D2itTy%B28%D6%3B(%93%96%ED%1CGx%C9_%0E%B8%5E%16%F5%5B%B2%B8%F6%E0%FB%9E%DD%25%D7%8E%BC%15%85%C5%B7%A3%D8Q%ED%B5%81%E9%BA%B2%13%9A%1B%7Fua%A5%A3n%E17%B9%E5%9B%1Bm%AB%0B%08Q%FE%8A%E5%B1H%5Ee%CAO%82Q%D7u6%E6%90S%97%FCu%0B%CF2%94%EE%25v%12X%0C%BA%AC%F0%5E%F8*l%0AO%85%17%C2%97%BF%D4%C8%CE%DE%AD%11%CB%80q%2C%3E%AB%9ES%CD%C6%EC%25%D2L%D2%EBd%B8%BF%8A%F5B%C6%18%F9%901CZ%9D%BE%24M%9C%8A9%F2%DAP%0B'%06w%82%EB%E6%E2%5C%2F%D7%07%9E%BB%CC%5D%E1%FA%B9%08%AD.r%23%8E%C2%17%F5E%7C!%F0%BE3%BE%3E_%B7o%88a%A7%DB%BE%D3d%EB%A31Z%EB%BB%D3%91%BA%A2%B1z%94%8F%DB'%F6%3D%8E%AA%13%19%B2%B1%BE%B1~V%08%2B%B4%A2cjJ%B3tO%00%03%25mN%97%F3%05%93%EF%11%84%0B%7C%88%AE-%89%8F%ABbW%90O%2B%0Ao%99%0C%5E%97%0CI%AFH%D9.%B0%3B%8F%ED%03%B6S%D6%5D%E6i_s9%F3*p%E9%1B%FD%C3%EB.7U%06%5E%19%C0%D1s.%17%A03u%E4%09%B0%7C%5E%2C%EB%15%DB%1F%3C%9E%B7%80%91%3B%DBc%AD%3Dma%BA%8B%3EV%AB%DBt.%5B%1E%01%BB%0F%AB%D5%9F%CF%AA%D5%DD%E7%E4%7F%0Bx%A3%FC%06%A9%23%0A%D6%C2%A1_2%00%00%00%09pHYs%00%00%0B%13%00%00%0B%13%01%00%9A%9C%18%00%00%00%B5IDAT(%15%A5%91%3D%0E%02!%10%85ac%E1%05%D6%CE%D6%C6%CE%D2%E8%ED%CD%DE%C0%C6%D6N.%E0V%F8%3D%9Ca%891XH%C2%BE%D9y%3F%90!%E6%9C%C3%BFk%E5%011%C6-%F5%C8N%04%DF%BD%FF%89%DFt%83DN%60%3E%F3%AB%A0%DE%1A%5Dg%BE%10Q%97%1B%40%9C%A8o%10%8F%5E%828%B4%1B%60%87%F6%02%26%85%1Ch%1E%C1%2B%5Bk%FF%86%EE%B7j%09%9A%DA%9B%ACe%A3%F9%EC%DA!9%B4%D5%A6%81%86%86%98%CC%3C%5B%40%FA%81%B3%E9%CB%23%94%C16Azo%05%D4%E1%C1%95a%3B%8A'%A0%E8%CC%17%22%85%1D%BA%00%A2%FA%DC%0A%94%D1%D1%8D%8B%3A%84%17B%C7%60%1A%25Z%FC%8D%00%00%00%00IEND%AEB%60%82"),url("data:image/png,%89PNG%0D%0A%1A%0A%00%00%00%0DIHDR%00%00%00%05%00%00%007%08%06%00%00%00%C4%DD%80C%00%00%03%1EiCCPICC%20Profile%00%00x%01%85T%DFk%D3P%14%FE%DAe%9D%B0%E1%8B%3Ag%11%09%3Eh%91ndStC%9C%B6kW%BA%CDZ%EA6%B7!H%9B%A6m%5C%9A%C6%24%ED~%B0%07%D9%8Bo%3A%C5w%F1%07%3E%F9%07%0C%D9%83o%7B%92%0D%C6%14a%F8%AC%88%22L%F6%22%B3%9E%9B4M'S%03%B9%F7%BB%DF%F9%EE9'%E7%E4%5E%A0%F9qZ%D3%14%2F%0F%14USO%C5%C2%FC%C4%E4%14%DF%F2%01%5E%1CC%2B%FChM%8B%86%16J%26G%40%0F%D3%B2y%EF%B3%F3%0E%1E%C6lt%EEo%DF%AB%FEc%D5%9A%95%0C%11%F0%1C%20%BE%945%C4%22%E1Y%A0i%5C%D4t%13%E0%D6%89%EF%9D15%C2%CDLsX%A7%04%09%1Fg8oc%81%E1%8C%8D%23%96f45%40%9A%09%C2%07%C5B%3AK%B8%408%98i%E0%F3%0D%D8%CE%81%14%E4'%26%A9%92.%8B%3C%ABER%2F%E5dE%B2%0C%F6%F0%1Fs%83%F2_%B0%A8%94%E9%9B%AD%E7%10%8Dm%9A%19N%D1%7C%8A%DE%1F9%7Dp%8C%E6%00%D5%C1%3F_%18%BDA%B8%9DpX6%E3%A35~B%CD%24%AE%11%26%BD%E7%EEti%98%EDe%9A%97Y)%12%25%1C%24%BCbT%AE3li%E6%0B%03%89%9A%E6%D3%ED%F4P%92%B0%9F4%BF43Y%F3%E3%EDP%95%04%EB1%C5%F5%F6KF%F4%BA%BD%D7%DB%91%93%07%E35%3E%A7)%D6%7F%40%FE%BD%F7%F5r%8A%E5y%92%F0%EB%B4%1E%8D%D5%F4%5B%92%3AV%DB%DB%E4%CD%A6%23%C3%C4wQ%3F%03HB%82%8E%1Cd(%E0%91B%0Ca%9Ac%C4%AA%F8L%16%19%22J%A4%D2itTy%B28%D6%3B(%93%96%ED%1CGx%C9_%0E%B8%5E%16%F5%5B%B2%B8%F6%E0%FB%9E%DD%25%D7%8E%BC%15%85%C5%B7%A3%D8Q%ED%B5%81%E9%BA%B2%13%9A%1B%7Fua%A5%A3n%E17%B9%E5%9B%1Bm%AB%0B%08Q%FE%8A%E5%B1H%5Ee%CAO%82Q%D7u6%E6%90S%97%FCu%0B%CF2%94%EE%25v%12X%0C%BA%AC%F0%5E%F8*l%0AO%85%17%C2%97%BF%D4%C8%CE%DE%AD%11%CB%80q%2C%3E%AB%9ES%CD%C6%EC%25%D2L%D2%EBd%B8%BF%8A%F5B%C6%18%F9%901CZ%9D%BE%24M%9C%8A9%F2%DAP%0B'%06w%82%EB%E6%E2%5C%2F%D7%07%9E%BB%CC%5D%E1%FA%B9%08%AD.r%23%8E%C2%17%F5E%7C!%F0%BE3%BE%3E_%B7o%88a%A7%DB%BE%D3d%EB%A31Z%EB%BB%D3%91%BA%A2%B1z%94%8F%DB'%F6%3D%8E%AA%13%19%B2%B1%BE%B1~V%08%2B%B4%A2cjJ%B3tO%00%03%25mN%97%F3%05%93%EF%11%84%0B%7C%88%AE-%89%8F%ABbW%90O%2B%0Ao%99%0C%5E%97%0CI%AFH%D9.%B0%3B%8F%ED%03%B6S%D6%5D%E6i_s9%F3*p%E9%1B%FD%C3%EB.7U%06%5E%19%C0%D1s.%17%A03u%E4%09%B0%7C%5E%2C%EB%15%DB%1F%3C%9E%B7%80%91%3B%DBc%AD%3Dma%BA%8B%3EV%AB%DBt.%5B%1E%01%BB%0F%AB%D5%9F%CF%AA%D5%DD%E7%E4%7F%0Bx%A3%FC%06%A9%23%0A%D6%C2%A1_2%00%00%00%09pHYs%00%00%0B%13%00%00%0B%13%01%00%9A%9C%18%00%00%003IDAT8%11c%FC%FF%FF%7F%3E%03%1A%60%01%F2%3F%A3%891%80%04%FFQ%26%F8w%C0%B43%A1%DB%0C%E2%8F%0A%A2%85%CAh%80%8C%06%08%3C%04%E8%96%18%00%A3S%0D%CD%CF%D8%C1%9D%00%00%00%00IEND%AEB%60%82");background-repeat: no-repeat, repeat-x;background-position: center center, top left;}.ace_gutter-tooltip {background-color: #FFF;background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.1));background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.1));border: 1px solid gray;border-radius: 1px;box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);color: black;display: inline-block;max-width: 500px;padding: 4px;position: fixed;z-index: 999999;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;cursor: default;white-space: pre-line;word-wrap: break-word;line-height: normal;font-style: normal;font-weight: normal;letter-spacing: normal;}.ace_folding-enabled > .ace_gutter-cell {padding-right: 13px;}.ace_fold-widget {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;margin: 0 -12px 0 1px;display: none;width: 11px;vertical-align: top;background-image: url("data:image/png,%89PNG%0D%0A%1A%0A%00%00%00%0DIHDR%00%00%00%05%00%00%00%05%08%06%00%00%00%8Do%26%E5%00%00%004IDATx%DAe%8A%B1%0D%000%0C%C2%F2%2CK%96%BC%D0%8F9%81%88H%E9%D0%0E%96%C0%10%92%3E%02%80%5E%82%E4%A9*-%EEsw%C8%CC%11%EE%96w%D8%DC%E9*Eh%0C%151(%00%00%00%00IEND%AEB%60%82");background-repeat: no-repeat;background-position: center;border-radius: 3px;border: 1px solid transparent;cursor: pointer;}.ace_folding-enabled .ace_fold-widget {display: inline-block;   }.ace_fold-widget.ace_end {background-image: url("data:image/png,%89PNG%0D%0A%1A%0A%00%00%00%0DIHDR%00%00%00%05%00%00%00%05%08%06%00%00%00%8Do%26%E5%00%00%004IDATx%DAm%C7%C1%09%000%08C%D1%8C%ECE%C8E(%8E%EC%02)%1EZJ%F1%C1'%04%07I%E1%E5%EE%CAL%F5%A2%99%99%22%E2%D6%1FU%B5%FE0%D9x%A7%26Wz5%0E%D5%00%00%00%00IEND%AEB%60%82");}.ace_fold-widget.ace_closed {background-image: url("data:image/png,%89PNG%0D%0A%1A%0A%00%00%00%0DIHDR%00%00%00%03%00%00%00%06%08%06%00%00%00%06%E5%24%0C%00%00%009IDATx%DA5%CA%C1%09%000%08%03%C0%AC*(%3E%04%C1%0D%BA%B1%23%A4Uh%E0%20%81%C0%CC%F8%82%81%AA%A2%AArGfr%88%08%11%11%1C%DD%7D%E0%EE%5B%F6%F6%CB%B8%05Q%2F%E9tai%D9%00%00%00%00IEND%AEB%60%82");}.ace_fold-widget:hover {border: 1px solid rgba(0, 0, 0, 0.3);background-color: rgba(255, 255, 255, 0.2);-moz-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.7);-webkit-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.7);box-shadow: 0 1px 1px rgba(255, 255, 255, 0.7);}.ace_fold-widget:active {border: 1px solid rgba(0, 0, 0, 0.4);background-color: rgba(0, 0, 0, 0.05);-moz-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);-webkit-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);box-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);}/*** Dark version for fold widgets*/.ace_dark .ace_fold-widget {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHklEQVQIW2P4//8/AzoGEQ7oGCaLLAhWiSwB146BAQCSTPYocqT0AAAAAElFTkSuQmCC");}.ace_dark .ace_fold-widget.ace_end {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAH0lEQVQIW2P4//8/AxQ7wNjIAjDMgC4AxjCVKBirIAAF0kz2rlhxpAAAAABJRU5ErkJggg==");}.ace_dark .ace_fold-widget.ace_closed {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAFCAYAAACAcVaiAAAAHElEQVQIW2P4//+/AxAzgDADlOOAznHAKgPWAwARji8UIDTfQQAAAABJRU5ErkJggg==");}.ace_dark .ace_fold-widget:hover {box-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);background-color: rgba(255, 255, 255, 0.1);}.ace_dark .ace_fold-widget:active {-moz-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);-webkit-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);box-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);}.ace_fold-widget.ace_invalid {background-color: #FFB4B4;border-color: #DE5555;}.ace_fade-fold-widgets .ace_fold-widget {-moz-transition: opacity 0.4s ease 0.05s;-webkit-transition: opacity 0.4s ease 0.05s;-o-transition: opacity 0.4s ease 0.05s;-ms-transition: opacity 0.4s ease 0.05s;transition: opacity 0.4s ease 0.05s;opacity: 0;}.ace_fade-fold-widgets:hover .ace_fold-widget {-moz-transition: opacity 0.05s ease 0.05s;-webkit-transition: opacity 0.05s ease 0.05s;-o-transition: opacity 0.05s ease 0.05s;-ms-transition: opacity 0.05s ease 0.05s;transition: opacity 0.05s ease 0.05s;opacity:1;}.ace_underline {text-decoration: underline;}.ace_bold {font-weight: bold;}.ace_nobold .ace_bold {font-weight: normal;}.ace_italic {font-style: italic;}.ace_error-marker {background-color: rgba(255, 0, 0,0.2);position: absolute;z-index: 9;}.ace_highlight-marker {background-color: rgba(255, 255, 0,0.2);position: absolute;z-index: 8;}</style><style id="ace-tm">.ace-tm .ace_gutter {background: #f0f0f0;color: #333;}.ace-tm .ace_print-margin {width: 1px;background: #e8e8e8;}.ace-tm .ace_fold {background-color: #6B72E6;}.ace-tm {background-color: #FFFFFF;}.ace-tm .ace_cursor {color: black;}.ace-tm .ace_invisible {color: rgb(191, 191, 191);}.ace-tm .ace_storage,.ace-tm .ace_keyword {color: blue;}.ace-tm .ace_constant {color: rgb(197, 6, 11);}.ace-tm .ace_constant.ace_buildin {color: rgb(88, 72, 246);}.ace-tm .ace_constant.ace_language {color: rgb(88, 92, 246);}.ace-tm .ace_constant.ace_library {color: rgb(6, 150, 14);}.ace-tm .ace_invalid {background-color: rgba(255, 0, 0, 0.1);color: red;}.ace-tm .ace_support.ace_function {color: rgb(60, 76, 114);}.ace-tm .ace_support.ace_constant {color: rgb(6, 150, 14);}.ace-tm .ace_support.ace_type,.ace-tm .ace_support.ace_class {color: rgb(109, 121, 222);}.ace-tm .ace_keyword.ace_operator {color: rgb(104, 118, 135);}.ace-tm .ace_string {color: rgb(3, 106, 7);}.ace-tm .ace_comment {color: rgb(76, 136, 107);}.ace-tm .ace_comment.ace_doc {color: rgb(0, 102, 255);}.ace-tm .ace_comment.ace_doc.ace_tag {color: rgb(128, 159, 191);}.ace-tm .ace_constant.ace_numeric {color: rgb(0, 0, 205);}.ace-tm .ace_variable {color: rgb(49, 132, 149);}.ace-tm .ace_xml-pe {color: rgb(104, 104, 91);}.ace-tm .ace_entity.ace_name.ace_function {color: #0000A2;}.ace-tm .ace_heading {color: rgb(12, 7, 255);}.ace-tm .ace_list {color:rgb(185, 6, 144);}.ace-tm .ace_meta.ace_tag {color:rgb(0, 22, 142);}.ace-tm .ace_string.ace_regex {color: rgb(255, 0, 0)}.ace-tm .ace_marker-layer .ace_selection {background: rgb(181, 213, 255);}.ace-tm.ace_multiselect .ace_selection.ace_start {box-shadow: 0 0 3px 0px white;border-radius: 2px;}.ace-tm .ace_marker-layer .ace_step {background: rgb(252, 255, 0);}.ace-tm .ace_marker-layer .ace_stack {background: rgb(164, 229, 101);}.ace-tm .ace_marker-layer .ace_bracket {margin: -1px 0 0 -1px;border: 1px solid rgb(192, 192, 192);}.ace-tm .ace_marker-layer .ace_active-line {background: rgba(0, 0, 0, 0.07);}.ace-tm .ace_gutter-active-line {background-color : #dcdcdc;}.ace-tm .ace_marker-layer .ace_selected-word {background: rgb(250, 250, 255);border: 1px solid rgb(200, 200, 250);}.ace-tm .ace_indent-guide {background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAE0lEQVQImWP4////f4bLly//BwAmVgd1/w11/gAAAABJRU5ErkJggg==") right repeat-y;}</style><style id="ace-tomorrow-night-eighties">.ace-tomorrow-night-eighties .ace_gutter {background: #272727;color: #CCC}.ace-tomorrow-night-eighties .ace_print-margin {width: 1px;background: #272727}.ace-tomorrow-night-eighties {background-color: #2D2D2D;color: #CCCCCC}.ace-tomorrow-night-eighties .ace_constant.ace_other {color: #CCCCCC}.ace-tomorrow-night-eighties .ace_cursor {color: #CCCCCC}.ace-tomorrow-night-eighties .ace_marker-layer .ace_selection {background: #515151}.ace-tomorrow-night-eighties.ace_multiselect .ace_selection.ace_start {box-shadow: 0 0 3px 0px #2D2D2D;border-radius: 2px}.ace-tomorrow-night-eighties .ace_marker-layer .ace_step {background: rgb(102, 82, 0)}.ace-tomorrow-night-eighties .ace_marker-layer .ace_bracket {margin: -1px 0 0 -1px;border: 1px solid #6A6A6A}.ace-tomorrow-night-bright .ace_stack {background: rgb(66, 90, 44)}.ace-tomorrow-night-eighties .ace_marker-layer .ace_active-line {background: #393939}.ace-tomorrow-night-eighties .ace_gutter-active-line {background-color: #393939}.ace-tomorrow-night-eighties .ace_marker-layer .ace_selected-word {border: 1px solid #515151}.ace-tomorrow-night-eighties .ace_invisible {color: #6A6A6A}.ace-tomorrow-night-eighties .ace_keyword,.ace-tomorrow-night-eighties .ace_meta,.ace-tomorrow-night-eighties .ace_storage,.ace-tomorrow-night-eighties .ace_storage.ace_type,.ace-tomorrow-night-eighties .ace_support.ace_type {color: #CC99CC}.ace-tomorrow-night-eighties .ace_keyword.ace_operator {color: #66CCCC}.ace-tomorrow-night-eighties .ace_constant.ace_character,.ace-tomorrow-night-eighties .ace_constant.ace_language,.ace-tomorrow-night-eighties .ace_constant.ace_numeric,.ace-tomorrow-night-eighties .ace_keyword.ace_other.ace_unit,.ace-tomorrow-night-eighties .ace_support.ace_constant,.ace-tomorrow-night-eighties .ace_variable.ace_parameter {color: #F99157}.ace-tomorrow-night-eighties .ace_invalid {color: #CDCDCD;background-color: #F2777A}.ace-tomorrow-night-eighties .ace_invalid.ace_deprecated {color: #CDCDCD;background-color: #CC99CC}.ace-tomorrow-night-eighties .ace_fold {background-color: #6699CC;border-color: #CCCCCC}.ace-tomorrow-night-eighties .ace_entity.ace_name.ace_function,.ace-tomorrow-night-eighties .ace_support.ace_function,.ace-tomorrow-night-eighties .ace_variable {color: #6699CC}.ace-tomorrow-night-eighties .ace_support.ace_class,.ace-tomorrow-night-eighties .ace_support.ace_type {color: #FFCC66}.ace-tomorrow-night-eighties .ace_heading,.ace-tomorrow-night-eighties .ace_string {color: #99CC99}.ace-tomorrow-night-eighties .ace_comment {color: #999999}.ace-tomorrow-night-eighties .ace_entity.ace_name.ace_tag,.ace-tomorrow-night-eighties .ace_entity.ace_other.ace_attribute-name,.ace-tomorrow-night-eighties .ace_meta.ace_tag,.ace-tomorrow-night-eighties .ace_variable {color: #F2777A}.ace-tomorrow-night-eighties .ace_indent-guide {background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQImWPQ09NrYAgMjP4PAAtGAwchHMyAAAAAAElFTkSuQmCC) right repeat-y}</style></head>
+<body>
+  <!-- Flash notices -->
+
+  <div id="show-project">
+
+<!-- Things that need to be on top -->
+<div id="skill-alert-container">
+  <div id="new-skill-alert" class="skill"></div>
+</div>
+
+<!-- Smart hint -->
+<div class="smart-hint-container"></div>
+
+<!-- Skill Pop up -->
+<div class="skill-details">
+  <div class="skill-details-arrow"></div>
+  <div class="skill-details-content"></div>
+</div>
+
+<!-- Mobile toggle -->
+<div class="mobile-toggle">
+  <div class="mobile-toggle-switch"></div>
+  <div class="mobile-toggle-icon"></div>
+</div>
+
+<!-- Preview (on right) -->
+<div class="preview-container">
+  <iframe id="preview" src="./Dash prework homework 1_files/saved_resource.html"></iframe>
+</div>
+
+ <!-- Workspace (on left) -->
+<div class="workspace">
+
+  <button id="reload-js">Run Javascript</button>
+
+  <!-- Controls -->
+  <div class="controls">
+      <a class="brand" href="https://dash.generalassemb.ly/projects">Dash</a>
+    <span class="save-status">All changes saved.</span>
+    <ul class="nav">
+      <li id="nav-lesson" class="nav-item nav-slides active">Lesson</li>
+      <li id="nav-forum" class="nav-item nav-forum">Q&amp;A Forum</li>
+      <li id="nav-skills" class="nav-item nav-skills">Skills</li>
+    </ul>
+  </div>
+
+  <!-- Lesson -->
+  <div id="tab-lesson" class="tab tab-active">
+    <div class="prev" style="visibility: visible;"></div>
+    <div class="next"></div>
+    <div class="slide" style="background-image: url(&quot;https://ga-dash.s3.amazonaws.com/production/uploads/slides/15/9507679d6b5372e2666302b48e432d7f.jpg&quot;);"></div>
+    <div class="slide-previewer" style="display: none; background-image: url(&quot;https://ga-dash.s3.amazonaws.com/production/uploads/slides/15/1339ac74edece3a571edc5f261d88c76.jpg&quot;); left: 234px;"></div>
+    <div class="progress">
+      <div class="progress-bar-background"></div>
+      <div class="progress-bar" style="width: 6.89655%;"></div>
+    <span class="checkpoint-flag" style="left: 41.37931034482759%"></span><span class="checkpoint-flag" style="left: 48.275862068965516%"></span><span class="checkpoint-flag" style="left: 65.51724137931035%"></span><span class="checkpoint-flag" style="left: 79.3103448275862%"></span><span class="checkpoint-flag" style="left: 93.10344827586206%"></span></div>
+    <div class="slide-controls">
+      <div class="prev-button" style="visibility: visible;"></div>
+      <div class="slide-num">
+        <span class="current-slide">2</span>/<span class="total-slides">29</span>
+      </div>
+      <div class="next-button"></div>
+    </div>
+  </div>
+
+  <!-- Skills -->
+  <div id="tab-skills" class="tab">
+    <div class="tab-skills-inner">
+        <h2>Project 1: Build a personal website</h2>
+          <div class="skills">
+              <span class="skill
+                skill-type-html
+                has-skill-false" data-name="h1-h6" data-description="Document headings and sub-headings. The bigger the number, the smaller the size.">
+                h1-h6
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="tag">&lt;h1&gt;</span>I’m a main heading<span class="tag">&lt;/h1&gt;</span><br><span class="tag">&lt;h2&gt;</span>I’m a subheading<span class="tag">&lt;/h2&gt;</span><br><span class="tag">&lt;h6&gt;</span>I’m the smallest<span class="tag">&lt;/h6&gt;</span></pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-html
+                has-skill-false" data-name="email input" data-description="A type of input that takes user email addresses. New in HTML5.">
+                email input
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="tag">&lt;input</span> <span class="attribute-name">type</span>=<span class="string"><span class="delimiter">"</span><span class="content">email</span><span class="delimiter">"</span></span> <span class="attribute-name">placeholder</span>=<span class="string"><span class="delimiter">"</span><span class="content">Your email</span><span class="delimiter">"</span></span><span class="tag">&gt;</span></pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-html
+                has-skill-false" data-name="submit input" data-description="Makes a button to submit information from a form to a server.">
+                submit input
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="tag">&lt;input</span> <span class="attribute-name">type</span>=<span class="string"><span class="delimiter">"</span><span class="content">submit</span><span class="delimiter">"</span></span><span class="tag">&gt;</span></pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-html
+                has-skill-false" data-name="p" data-description="The p tag makes paragraph elements">
+                p
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="tag">&lt;p&gt;</span>I am a cool paragraph, full of text<span class="tag">&lt;/p&gt;</span></pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-html
+                has-skill-false" data-name="placeholder" data-description="Puts placeholder text in an input. The text will disappear when a user types their own content.">
+                placeholder
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="tag">&lt;input</span> <span class="attribute-name">type</span>=<span class="string"><span class="delimiter">"</span><span class="content">text</span><span class="delimiter">"</span></span> <span class="attribute-name">placeholder</span>=<span class="string"><span class="delimiter">"</span><span class="content">Your name</span><span class="delimiter">"</span></span><span class="tag">&gt;</span></pre></div>
+</div>
+
+                </div>
+              </span>
+          </div>
+          <div class="skills">
+              <span class="skill
+                skill-type-html
+                has-skill-false" data-name="style" data-description="An HTML tag that you can use to include CSS directly in your HTML file, rather than linking to an external CSS file.">
+                style
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="tag">&lt;style&gt;</span><br>&nbsp;&nbsp;&nbsp;body {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;color: black;<br>&nbsp;&nbsp;&nbsp;}<br><span class="tag">&lt;/style&gt;</span></pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-html
+                has-skill-false" data-name="body" data-description="The body tag goes around all the content that&#39;s visible on the page">
+                body
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="tag">&lt;body&gt;</span><br>&nbsp;&nbsp;&nbsp;<span class="comment">&lt;!-- Content goes here --&gt;</span><br><span class="tag">&lt;/body&gt;</span></pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-html
+                has-skill-false" data-name="head" data-description="The head tag holds all information about the page that isn&#39;t directly displayed on the page.">
+                head
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="tag">&lt;head&gt;</span><br>&nbsp;&nbsp;&nbsp;<span class="tag">&lt;title&gt;</span>General Assembly<span class="tag">&lt;/title&gt;</span><br>&nbsp;&nbsp;&nbsp;<span class="tag">&lt;style&gt;</span><span class="tag">&lt;/style&gt;</span><br><span class="tag">&lt;/head&gt;</span></pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-html
+                has-skill-false" data-name="title" data-description="The title tag is used to give the webpage a title for browser tabs and search engines.">
+                title
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="tag">&lt;title&gt;</span>General Assembly<span class="tag">&lt;/title&gt;</span></pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-css
+                has-skill-false" data-name="text-align" data-description="Controls the alignment of all the text in an element. Can be left, right, centered, or justified.">
+                text-align
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="type">h1</span> {<span class="key"><br>&nbsp;&nbsp;&nbsp;</span> <span class="key">text-align</span>: <span class="value">center</span>;<span class="key"><br></span>}</pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-css
+                has-skill-false" data-name="background" data-description="This sets the background of an element to either a color or an image (or both)">
+                background
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="type">body</span> {<span class="key"><br>&nbsp;&nbsp;&nbsp;background</span>: <span class="color">#000</span> <span class="function"><span class="delimiter">url(</span><span class="content">"/assets/bg.jpg"</span><span class="delimiter">)</span></span>;<span class="key"><br></span>}</pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-css
+                has-skill-false" data-name="font-family" data-description="Sets the font used in an element.">
+                font-family
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="type">h1</span> {<span class="key"><br>&nbsp;&nbsp;&nbsp;font-family</span>: <span class="string"><span class="delimiter">"</span><span class="content">Helvetica Neue</span><span class="delimiter">"</span></span>, <span class="value">helvetica</span>, <span class="value">sans-serif</span>;<span class="key"><br></span>}</pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-css
+                has-skill-false" data-name="color" data-description="Changes the text&#39;s color inside an element.">
+                color
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="type">body</span> {<span class="key"><br>&nbsp;&nbsp;&nbsp;color</span>: <span class="value">red</span>;<span class="key"><br></span>}</pre></div>
+</div>
+
+                </div>
+              </span>
+          </div>
+          <div class="skills">
+              <span class="skill
+                skill-type-html
+                has-skill-false" data-name="img" data-description="Creates an image element on the page. The src should be equal to a URL pointing at an image file.">
+                img
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="tag">&lt;img</span> <span class="attribute-name">src</span>=<span class="string"><span class="delimiter">"</span><span class="content">/assets/anna.jpg</span><span class="delimiter">"</span></span><span class="tag">&gt;</span></pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-css
+                has-skill-false" data-name="background-size" data-description="Changes the size of a background image. Can be set to a value in pixels, percent, or the keywords &quot;cover&quot; or &quot;contain&quot;.">
+                background-size
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="type">body</span> {<span class="key"><br>&nbsp;&nbsp;&nbsp;background-size</span>: <span class="float">50%</span>;<span class="key"><br></span>}</pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-css
+                has-skill-false" data-name="background-position" data-description="Controls where the background image is placed in an element. The unit can be set to a value in pixels, percent, or keywords such as left, top, center, etc.">
+                background-position
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="type">body</span> {<span class="key"><br>&nbsp;&nbsp;&nbsp;background-position</span>: <span class="float">10px</span> <span class="float">50px</span>;<span class="key"><br></span>}</pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-css
+                has-skill-false" data-name="font-size" data-description="Controls the size of the font in an element.">
+                font-size
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="type">body</span> {<span class="key"><br>&nbsp;&nbsp;&nbsp;font-size</span>: <span class="float">18px</span>;<span class="key"><br></span>}</pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-css
+                has-skill-false" data-name="border" data-description="Controls the border of an element. It can take 3 options - width (in pixels), type (solid, dashed, etc), and color. Some elements, like inputs, come with a default border. Setting border to 0 resets it.">
+                border
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="type">h1</span> {<span class="key"><br>&nbsp;&nbsp;&nbsp;border</span>: <span class="float">1px</span> <span class="value">solid</span> <span class="value">black</span>;<span class="key"><br></span>}</pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-css
+                has-skill-false" data-name="padding" data-description="Controls the amount of space between the edge of an element and the stuff inside it.">
+                padding
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="type">input</span> {<span class="key"><br>&nbsp;&nbsp;&nbsp;padding</span>: <span class="float">10px</span>;<span class="key"><br></span>}</pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-css
+                has-skill-false" data-name="attribute selectors" data-description="A CSS selector that lets you choose elements based on the value of their attributes.">
+                attribute selectors
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="type">input</span>[<span class="attribute-name">type="submit"</span>] {<span class="key"><br>&nbsp;&nbsp;&nbsp;background</span>: <span class="value">red</span>;<span class="key"><br></span>}</pre></div>
+</div>
+
+                </div>
+              </span>
+          </div>
+          <div class="skills">
+          </div>
+        <h2>Project 2: Build a responsive blog theme</h2>
+          <div class="skills">
+              <span class="skill
+                skill-type-html
+                has-skill-false" data-name="header" data-description="The header tag is a container element that&#39;s used to group together everything that goes in a header section on the page.">
+                header
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="tag">&lt;header&gt;</span><br>&nbsp;&nbsp;&nbsp;<span class="tag">&lt;h1&gt;</span>This is my site<span class="tag">&lt;/h1&gt;</span><br><span class="tag">&lt;/header&gt;</span></pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-html
+                has-skill-false" data-name="li" data-description="The list item tag can go in an ordered or unordered list. It&#39;s the individual list item in a list of things.">
+                li
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="tag">&lt;ul&gt;</span><br>&nbsp;&nbsp;&nbsp;<span class="tag">&lt;li&gt;</span>Pickles<span class="tag">&lt;/li&gt;</span><br>&nbsp;&nbsp;&nbsp;<span class="tag">&lt;li&gt;</span>Mayo<span class="tag">&lt;/li&gt;</span><br>&nbsp;&nbsp;&nbsp;<span class="tag">&lt;li&gt;</span>Mustard<span class="tag">&lt;/li&gt;</span><br><span class="tag">&lt;/ul&gt;</span></pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-html
+                has-skill-false" data-name="a" data-description="The a tag makes links. It has an attribute called href that should be set to a URL you want the browser to open when clicked.">
+                a
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="tag">&lt;a</span> <span class="attribute-name">href</span>=<span class="string"><span class="delimiter">"</span><span class="content">http://www.google.com</span><span class="delimiter">"</span></span><span class="tag">&gt;</span>Google<span class="tag">&lt;/a&gt;</span></pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-html
+                has-skill-false" data-name="ul" data-description="The unordered list tag makes bulleted lists. Used in conjunction with the &lt;li&gt; tag.">
+                ul
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="tag">&lt;ul&gt;</span><br>&nbsp;&nbsp;&nbsp;<span class="tag">&lt;li&gt;</span>Ketchup<span class="tag">&lt;/li&gt;</span><br>&nbsp;&nbsp;&nbsp;<span class="tag">&lt;li&gt;</span>Mayo<span class="tag">&lt;/li&gt;</span><br>&nbsp;&nbsp;&nbsp;<span class="tag">&lt;li&gt;</span>Mustard<span class="tag">&lt;/li&gt;</span><br><span class="tag">&lt;/ul&gt;</span></pre></div>
+</div>
+
+                </div>
+              </span>
+          </div>
+          <div class="skills">
+              <span class="skill
+                skill-type-html
+                has-skill-false" data-name="link" data-description="An HTML tag that lets you include external stylesheets in your webpage.">
+                link
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="tag">&lt;link</span> <span class="attribute-name">href</span>=<span class="string"><span class="delimiter">"</span><span class="content">style.css</span><span class="delimiter">"</span></span> <span class="attribute-name">rel</span>=<span class="string"><span class="delimiter">"</span><span class="content">stylesheet</span><span class="delimiter">"</span></span><span class="tag">&gt;</span></pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-css
+                has-skill-false" data-name="display" data-description="The display property controls whether an element should be block (full width of page, on a new line) or inline (contained in text). ">
+                display
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="type">li</span> {<span class="key"><br>&nbsp;&nbsp;&nbsp;display</span>: <span class="value">inline</span>;<span class="key"><br></span>}</pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-css
+                has-skill-false" data-name="margin" data-description="Margin controls the amount of space between the outside of an element and other nearby elements.">
+                margin
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="type">h1</span> {<span class="key"><br>&nbsp;&nbsp;&nbsp;margin</span>: <span class="float">40px</span> <span class="float">0px</span> <span class="float">0px</span> <span class="float">0px</span>;<span class="key"><br></span>}</pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-css
+                has-skill-false" data-name="border-radius" data-description="Makes an element have rounded corners. Can take 1, 2, or 4 arguments (like padding).">
+                border-radius
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="type">img</span> {<span class="key"><br>&nbsp;&nbsp;&nbsp;border-radius</span>: <span class="float">10px</span>;<span class="key"><br></span>}</pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-css
+                has-skill-false" data-name="padding 2" data-description="You can control the padding of each side individually by passing 4 values - top, bottom, left, and right.">
+                padding 2
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="type">li</span> {<span class="key"><br>&nbsp;&nbsp;&nbsp;padding</span>: <span class="float">10px</span> <span class="float">20px</span> <span class="float">30px</span> <span class="float">40px</span>;<span class="key"><br></span>}</pre></div>
+</div>
+
+                </div>
+              </span>
+          </div>
+          <div class="skills">
+              <span class="skill
+                skill-type-css
+                has-skill-false" data-name="max-width" data-description="Setting an element&#39;s max-width lets an element expand in width only up until a certain point. It can be any width smaller than the size you specify, though.">
+                max-width
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="type">article</span> {<span class="key"><br>&nbsp;&nbsp;&nbsp;max-width</span>: <span class="float">500px</span>;<span class="key"><br></span>}</pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-html
+                has-skill-false" data-name="article" data-description="The article tag is meant to go around blog posts, news articles, essays, and any other bit of content that could stand alone and is meant to be read.">
+                article
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="tag">&lt;article&gt;</span><br>&nbsp;&nbsp;&nbsp;<span class="tag">&lt;h2&gt;</span>This is my blog post title<span class="tag">&lt;/h2&gt;</span><br>&nbsp;&nbsp;&nbsp;<span class="tag">&lt;p&gt;</span>Here is my text<span class="tag">&lt;/p&gt;</span><br><span class="tag">&lt;/article&gt;</span></pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-css
+                has-skill-false" data-name="margin: 0 auto;" data-description="The margin: 0 auto; trick lets you make a &quot;page&quot; on the screen by centering elements on the page without centering the text inside it. Must set a width for it to work.">
+                margin: 0 auto;
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="class">.container</span> {<span class="key"><br>&nbsp;&nbsp;&nbsp;margin</span>: <span class="float">0</span> <span class="value">auto</span>;<span class="key"><br></span>}</pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-html
+                has-skill-false" data-name="script" data-description="An HTML tag you can use to include javascript in your HTML file. Can come from an external source file or you can write the javascript right in the tag.">
+                script
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="tag">&lt;script&gt;</span><span class="inline">alert(<span class="string"><span class="delimiter">'</span><span class="content">hi</span><span class="delimiter">'</span></span>);</span><span class="tag">&lt;/script&gt;</span></pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-javascript
+                has-skill-false" data-name="on()" data-description="The &quot;on&quot; function is provided by jQuery, and lets you listen to events on elements.">
+                on()
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="predefined">$</span>(<span class="string"><span class="delimiter">'</span><span class="content">h1</span><span class="delimiter">'</span></span>).on(<span class="string"><span class="delimiter">'</span><span class="content">mouseover</span><span class="delimiter">'</span></span>, <span class="keyword">function</span>() {<br>&nbsp;&nbsp;&nbsp;alert(<span class="string"><span class="delimiter">'</span><span class="content">mouseover!</span><span class="delimiter">'</span></span>);<br>});</pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-html
+                has-skill-false" data-name="button" data-description="The button tag lets you make simple buttons. Pretty self explanatory ;)">
+                button
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="tag">&lt;button&gt;</span>Press me<span class="tag">&lt;/button&gt;</span></pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-javascript
+                has-skill-false" data-name="alert()" data-description="The alert() function causes the browser to pop up a message with some text in it.">
+                alert()
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre>alert(<span class="string"><span class="delimiter">'</span><span class="content">Hi there!</span><span class="delimiter">'</span></span>);</pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-css
+                has-skill-false" data-name="hex color" data-description="Hex color codes let you specify in more detail the exact color you want.">
+                hex color
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="type">body</span> {<span class="key"><br>&nbsp;&nbsp;&nbsp;background</span>: <span class="color">#f00</span>;<span class="key"><br></span>}</pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-css
+                has-skill-false" data-name="media queries" data-description="Media queries let you create CSS styles that are only activated under certain conditions (for example, if the browser is smaller than 500px wide).">
+                media queries
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="directive">@media</span> (<span class="type">max-width</span>: <span class="float">500px</span>) {<span class="type"><br>&nbsp;&nbsp;&nbsp;body</span> {<span class="key"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;background</span>: <span class="value">red</span>;<span class="key"><br>&nbsp;&nbsp;&nbsp;</span>}<span class="type"><br></span>}</pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-css
+                has-skill-false" data-name="rgba color" data-description="RGBA colors are like hex colors, but they have a different syntax and let you control alpha (transparency).">
+                rgba color
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="type">body</span> {<span class="key"><br>&nbsp;&nbsp;&nbsp;background</span>: <span class="color">rgba(255,0,0,.5)</span>;<span class="key"><br></span>}</pre></div>
+</div>
+
+                </div>
+              </span>
+          </div>
+          <div class="skills">
+          </div>
+        <h2>Project 3: Build a small business website</h2>
+          <div class="skills">
+              <span class="skill
+                skill-type-html
+                has-skill-false" data-name="class" data-description="Class specifies a style for a select group of HTML elements.	">
+                class
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="tag">&lt;p</span> <span class="attribute-name">class</span>=<span class="string"><span class="delimiter">"</span><span class="content">fantastic</span><span class="delimiter">"</span></span><span class="tag">&gt;</span>My format is special!<span class="tag">&lt;/p&gt;</span><br><span class="tag">&lt;p</span> <span class="attribute-name">class</span>=<span class="string"><span class="delimiter">"</span><span class="content">spectacular</span><span class="delimiter">"</span></span><span class="tag">&gt;</span>I do not look like you.<span class="tag">&lt;/p&gt;</span></pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-css
+                has-skill-false" data-name="position: relative" data-description="Positions an element relative to where it&#39;s normally supposed to be on the screen. ">
+                position: relative
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="type">h2</span> {<span class="key"><br>&nbsp;&nbsp;&nbsp;position</span>: <span class="value">relative</span>;<span class="key"><br>&nbsp;&nbsp;&nbsp;left</span>:<span class="float">20px</span>;<span class="key"><br></span>}</pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-css
+                has-skill-false" data-name="height" data-description="Sets the height of an element explicitly (rather than based on the height of the stuff inside it).">
+                height
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="type">div</span> {<span class="key"><br>&nbsp;&nbsp;&nbsp;height</span>: <span class="float">300px</span>;<span class="key"><br></span>} </pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-css
+                has-skill-false" data-name="bottom" data-description="Sets an element&#39;s distance from the bottom of a page or container.">
+                bottom
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="class">.copyright</span> {<span class="key"><br>&nbsp;&nbsp;&nbsp;bottom</span>: <span class="float">0px</span>;<span class="key"><br></span>}</pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-html
+                has-skill-false" data-name="div" data-description="A generic container element you can put other HTML elements inside.">
+                div
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="tag">&lt;div&gt;</span><br>&nbsp;&nbsp;&nbsp;<span class="tag">&lt;h1&gt;</span>I'm contained!<span class="tag">&lt;/h1&gt;</span><br>&nbsp;&nbsp;&nbsp;<span class="tag">&lt;p&gt;</span>So am I<span class="tag">&lt;/p&gt;</span><br><span class="tag">&lt;/div&gt;</span></pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-html
+                has-skill-false" data-name="small" data-description="Makes any text a bit smaller than the text surrounding it.">
+                small
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="tag">&lt;p&gt;</span>Be very, <span class="tag">&lt;small&gt;</span>very<span class="tag">&lt;/small&gt;</span> quiet.<span class="tag">&lt;/p&gt;</span></pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-html
+                has-skill-false" data-name="line break" data-description="Inserts a single line break within a larger section of text.">
+                line break
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="tag">&lt;p&gt;</span>Twinkle twinkle, little star<span class="tag">&lt;br</span> <span class="tag">/&gt;</span><br>how I wonder what you are.<span class="tag">&lt;/p</span></pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-html
+                has-skill-false" data-name="class" data-description="Class specifies a style for a select group of HTML elements.	">
+                class
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="tag">&lt;p</span> <span class="attribute-name">class</span>=<span class="string"><span class="delimiter">"</span><span class="content">fantastic</span><span class="delimiter">"</span></span><span class="tag">&gt;</span>My format is special!<span class="tag">&lt;/p&gt;</span><br><span class="tag">&lt;p</span> <span class="attribute-name">class</span>=<span class="string"><span class="delimiter">"</span><span class="content">spectacular</span><span class="delimiter">"</span></span><span class="tag">&gt;</span>I do not look like you.<span class="tag">&lt;/p&gt;</span></pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-css
+                has-skill-false" data-name="position: absolute" data-description="Allows you to style elements that will be ignored by, and will ignore, everything else on the page and will always stay where they are told.">
+                position: absolute
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="class">.sidebar</span> {<span class="key"><br>&nbsp;&nbsp;&nbsp;position</span>: <span class="value">absolute</span>;<span class="key"><br></span>}</pre></div>
+</div>
+
+                </div>
+              </span>
+          </div>
+          <div class="skills">
+              <span class="skill
+                skill-type-html
+                has-skill-false" data-name="span" data-description="The span tag creates a generic inline container, and allows you to change the appearance of part of the tag that contains it.">
+                span
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="tag">&lt;p&gt;</span>All of this text is very boring, except for <span class="tag">&lt;span</span> <span class="attribute-name">class</span>=<span class="string"><span class="delimiter">"</span><span class="content">fancy</span><span class="delimiter">"</span></span><span class="tag">&gt;</span>this bit of completely different-looking text<span class="tag">&lt;/span&gt;</span>, which just ended. <span class="tag">&lt;/p&gt;</span></pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-css
+                has-skill-false" data-name="float" data-description="A float shifts content to the far-left or far-right within the current line. Content flows down the right side of a left-floated box and down the left side of a right-floated box.">
+                float
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="class">.sidebar</span> {<span class="error">\</span><span class="key">n</span><span class="error">\</span><span class="key">tfloat</span>: <span class="value">left</span>;<span class="error">\</span><span class="key">n</span>}</pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-css
+                has-skill-false" data-name="gradient" data-description="Gradients can transition between colors or between alphas. They require a start point, a start color, and an end color. You can set an angle to make diagonal gradients, or color-stops to create stripes. Currently, CSS gradients require vendor prefixes.">
+                gradient
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="tag">body</span> {<span class="error">\</span><span class="key">n</span><span class="error">\</span><span class="key">tbackground</span>: <span class="value">-webkit-linear-gradient</span> (<span class="value">top</span>, <span class="color">#bada55</span>, <span class="color">#c0ffee</span>);<span class="error">\</span><span class="key">n</span><span class="error">\</span><span class="key">tbackground</span>: <span class="value">-moz-linear-gradient</span> (<span class="value">top</span>, <span class="color">#bada55</span>, <span class="color">#c0ffee</span>);<span class="error">\</span><span class="key">n</span><span class="error">\</span><span class="key">tbackground</span>: <span class="value">-o-linear-gradient</span> (<span class="value">top</span>, <span class="color">#bada55</span>, <span class="color">#c0ffee</span>);}</pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-html
+                has-skill-false" data-name="span" data-description="The span tag creates a generic inline container, and allows you to change the appearance of part of the tag that contains it.">
+                span
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="tag">&lt;p&gt;</span>All of this text is very boring, except for <span class="tag">&lt;span</span> <span class="attribute-name">class</span>=<span class="string"><span class="delimiter">"</span><span class="content">fancy</span><span class="delimiter">"</span></span><span class="tag">&gt;</span>this bit of completely different-looking text<span class="tag">&lt;/span&gt;</span>, which just ended.<span class="tag">&lt;/p&gt;</span></pre></div>
+</div>
+
+                </div>
+              </span>
+          </div>
+          <div class="skills">
+              <span class="skill
+                skill-type-css
+                has-skill-false" data-name="transition" data-description="Builds time-dependant behaviors into the transition between two different sets of CSS properties assigned to the same HTML element.">
+                transition
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="type">div</span> {<span class="key"><br>&nbsp;&nbsp;&nbsp;transition</span>: <span class="value">height</span> <span class="float">.5s</span>,<span class="value"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;background</span> <span class="float">.2s</span> <span class="value">ease</span>;<span class="key"><br></span>}</pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-css
+                has-skill-false" data-name="opacity" data-description="Opacity allows you to set the transparency of an element AND everything inside of it, from 100% (1) to 0% (0). Not to be confused with alpha.">
+                opacity
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="type">img</span> {<span class="key"><br>&nbsp;&nbsp;&nbsp;opacity</span>: <span class="float">.6</span>;<span class="key"><br></span>}</pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-javascript
+                has-skill-false" data-name="toggleClass" data-description="This function is provided by jQuery, and detects the presence of a specified CSS class on an HTML element. If the class is present, toggleClass removes it; if the class is not detected, toggleClass adds it.">
+                toggleClass
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="predefined">$</span>(<span class="string"><span class="delimiter">'</span><span class="content">img</span><span class="delimiter">'</span></span>).on(<span class="string"><span class="delimiter">'</span><span class="content">click</span><span class="delimiter">'</span></span>,<span class="error">\</span>sfunction() {<br>&nbsp;&nbsp;&nbsp;(<span class="local-variable">this</span>).toggleClass(<span class="string"><span class="delimiter">'</span><span class="content">caption</span><span class="delimiter">'</span></span>);<br>&nbsp;&nbsp;&nbsp;}</pre></div>
+</div>
+
+                </div>
+              </span>
+          </div>
+          <div class="skills">
+          </div>
+        <h2>Project 4: Build a CSS Robot</h2>
+          <div class="skills">
+              <span class="skill
+                skill-type-css
+                has-skill-false" data-name="radial-gradient" data-description="Radial gradients can transition between colors or between alphas. The basic syntax wants shape (ellipse or circle), inner color, outer color. Currently, needs vendor prefixes.">
+                radial-gradient
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="type">body</span> {<span class="key"><br>&nbsp;&nbsp;&nbsp;background</span>: <span class="error">r</span><span class="error">a</span><span class="error">d</span><span class="error">i</span><span class="error">a</span><span class="error">l</span><span class="error">-</span><span class="error">g</span><span class="error">r</span><span class="error">a</span><span class="error">d</span><span class="error">i</span><span class="error">e</span><span class="error">n</span><span class="error">t</span>(<span class="value">circle</span>, <span class="color">#c0ffee</span>, <span class="color">#bada55</span>);<span class="key"><br>&nbsp;&nbsp;&nbsp;background</span>: <span class="error">-</span><span class="error">m</span><span class="error">o</span><span class="error">z</span><span class="error">-</span><span class="error">r</span><span class="error">a</span><span class="error">d</span><span class="error">i</span><span class="error">a</span><span class="error">l</span><span class="error">-</span><span class="error">g</span><span class="error">r</span><span class="error">a</span><span class="error">d</span><span class="error">i</span><span class="error">e</span><span class="error">n</span><span class="error">t</span>(<span class="value">circle</span>, <span class="color">#c0ffee</span>, <span class="color">#bada55</span>);<span class="key"><br>&nbsp;&nbsp;&nbsp;background</span>: <span class="error">-</span><span class="error">w</span><span class="error">e</span><span class="error">b</span><span class="error">k</span><span class="error">i</span><span class="error">t</span><span class="error">-</span><span class="error">r</span><span class="error">a</span><span class="error">d</span><span class="error">i</span><span class="error">a</span><span class="error">l</span><span class="error">-</span><span class="error">g</span><span class="error">r</span><span class="error">a</span><span class="error">d</span><span class="error">i</span><span class="error">e</span><span class="error">n</span><span class="error">t</span>(<span class="value">circle</span>, <span class="color">#c0ffee</span>, <span class="color">#bada55</span>);<span class="key"><br>&nbsp;&nbsp;&nbsp;</span>}</pre></div>
+</div>
+
+                </div>
+              </span>
+          </div>
+          <div class="skills">
+              <span class="skill
+                skill-type-css
+                has-skill-false" data-name="top" data-description="Allows you to specify the distance between the top of an element and the top of its container.">
+                top
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="type">div</span> {<span class="key"><br>&nbsp;&nbsp;&nbsp;position</span>: <span class="value">relative</span>;<span class="key"><br>&nbsp;&nbsp;&nbsp;top</span>: <span class="float">20px</span>;<span class="key"><br></span>}</pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-css
+                has-skill-false" data-name="left" data-description="Sets the distance a positioned element should be from the left-hand boundary of its containing element.">
+                left
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="type">div</span> {<span class="key"><br>&nbsp;&nbsp;&nbsp;position</span>: <span class="value">relative</span>;<span class="key"><br>&nbsp;&nbsp;&nbsp;left</span>:<span class="float">20px</span>;<span class="key"><br></span>}</pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-css
+                has-skill-false" data-name="transform: rotate" data-description="Allows you to rotate an element clockwise by a specified number of degrees (out of 360). Use a negative value to rotate it counterclockwise.">
+                transform: rotate
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre></pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-css
+                has-skill-false" data-name="z-index" data-description="Allows you to &quot;stack&quot; HTML elements in front of or behind one another.">
+                z-index
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="type">div</span> {<span class="key"><br>&nbsp;&nbsp;&nbsp;position</span>: <span class="value">relative</span>;<span class="key"><br>&nbsp;&nbsp;&nbsp;z-index</span>:<span class="float">10</span>;<span class="key"><br></span>}</pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-css
+                has-skill-false" data-name="font-weight" data-description="Sets the weight of a font. Keywords are: normal, bold, bolder, and lighter. ">
+                font-weight
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="type">h2</span> {<span class="key"><br>&nbsp;&nbsp;&nbsp;font-weight</span>: <span class="value">bolder</span>;<span class="key"><br></span>}</pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-css
+                has-skill-false" data-name="transform: scaleY" data-description="Resizes an element horizontally by the specified amount. The number is &quot;x times the size it is now,&quot; so scale .5 is half the size and a scale of 2 is twice the size.">
+                transform: scaleY
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="type">img</span> {<span class="key"><br>&nbsp;&nbsp;&nbsp;transform</span>: <span class="error">s</span><span class="error">c</span><span class="error">a</span><span class="error">l</span><span class="error">e</span><span class="error">Y</span>(<span class="float">2</span>);<span class="key"><br></span>}</pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-css
+                has-skill-false" data-name="animation" data-description="Connects a CSS style to a keyframe animation. You need to tell it the animation&#39;s name, duration in seconds, and how many times to repeat (from 1 to infinite).">
+                animation
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="type">div</span> {<span class="key"><br>&nbsp;&nbsp;&nbsp;animation</span>: <span class="value">bounce</span> <span class="float">2s</span> <span class="float">10</span>;<span class="key"><br></span>}</pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-css
+                has-skill-false" data-name="@keyframes" data-description="Create keyframes for animations. You can say from/to if you have two keyframes, or you can set multiple keyframes by specifying percentages.">
+                @keyframes
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="directive">@keyframes</span> <span class="type">flip</span> {<span class="key"><br>&nbsp;&nbsp;&nbsp;\20</span><span class="error">%</span> {<span class="key">n&nbsp;&nbsp;&nbsp;color</span>: <span class="value">red</span>;<span class="key"><br>&nbsp;&nbsp;&nbsp;</span>}<span class="key"><br>&nbsp;&nbsp;&nbsp;\80</span><span class="error">%</span> {<span class="key">n&nbsp;&nbsp;&nbsp;color</span>: <span class="value">yellow</span>;<span class="key"><br>&nbsp;&nbsp;&nbsp;<br></span>}</pre></div>
+</div>
+
+                </div>
+              </span>
+          </div>
+          <div class="skills">
+              <span class="skill
+                skill-type-javascript
+                has-skill-false" data-name="variable" data-description="Variables capture and remember values. They always have names. Their names must be one word (no spaces). Names can contain letters or numbers but can’t start with a number. The only symbols allowed are $ and _. ">
+                variable
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="keyword">var</span> age = <span class="integer">28</span>;</pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-javascript
+                has-skill-false" data-name="Math.floor" data-description="This is a function that rounds any number down to the nearest whole number.">
+                Math.floor
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre>Math.floor(<span class="float">3.14159265359</span>); <span class="comment">// 3</span></pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-javascript
+                has-skill-false" data-name="Math.random" data-description="This function will return a random number between 0 and 1.">
+                Math.random
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre>Math.random(); </pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-javascript
+                has-skill-false" data-name="function" data-description="A function is a piece of a program that either does something useful or produces a value. It is a busy little machine. Functions are one of six named types of values in Javascript.">
+                function
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="keyword">function</span> <span class="function">greeting</span> (name) {<br>&nbsp;&nbsp;&nbsp;alert(<span class="string"><span class="delimiter">"</span><span class="content">hello, </span><span class="delimiter">"</span></span> + name + <span class="string"><span class="delimiter">"</span><span class="content">!</span><span class="delimiter">"</span></span>);<br>}</pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-javascript
+                has-skill-false" data-name="javascript comments" data-description="If you put two forward slashes in front of any line of script, JavaScript will ignore that line. Good for both explaining code to humans, and for debugging!">
+                javascript comments
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="comment">//JavaScript will ignore me, but people shouldn't</span></pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-javascript
+                has-skill-false" data-name="click function" data-description="The jQuery click function is a shorter, more concise way to do what on(‘click’) does.">
+                click function
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="predefined">$</span>(<span class="string"><span class="delimiter">'</span><span class="content">button</span><span class="delimiter">'</span></span>).click(<span class="keyword">function</span>() {<br>&nbsp;&nbsp;&nbsp;alert(<span class="string"><span class="delimiter">"</span><span class="content">you clicked me!</span><span class="delimiter">"</span></span>);<br>});</pre></div>
+</div>
+
+                </div>
+              </span>
+          </div>
+          <div class="skills">
+              <span class="skill
+                skill-type-javascript
+                has-skill-false" data-name="toggle" data-description="The JQuery toggle function lets you turn an HTML element visible or invisible. It affects all instances of the element, so if you have a lot of paragraphs or pictures and only want to toggle one, give that one a class name and toggle the class.">
+                toggle
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre>hello</pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-javascript
+                has-skill-false" data-name="css function" data-description="The css function in JQuery can be used in two ways. If you give it one value it &quot;returns&quot; a CSS property (basically, it finds it for you), and if you give it two values it “sets” a CSS property (changes the property before the comma to the value specified after the comma).">
+                css function
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre> <span class="predefined">$</span>(<span class="string"><span class="delimiter">"</span><span class="content">body</span><span class="delimiter">"</span></span>).css(<span class="string"><span class="delimiter">"</span><span class="content">background</span><span class="delimiter">"</span></span>);<br>&nbsp;&nbsp;&nbsp;alert(<span class="string"><span class="delimiter">"</span><span class="content">background</span><span class="delimiter">"</span></span>);<br><br> <span class="predefined">$</span>(<span class="string"><span class="delimiter">"</span><span class="content">body</span><span class="delimiter">"</span></span>).css(<span class="string"><span class="delimiter">"</span><span class="content">background</span><span class="delimiter">"</span></span>, <span class="string"><span class="delimiter">"</span><span class="content">white</span><span class="delimiter">"</span></span>);</pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-javascript
+                has-skill-false" data-name="strings" data-description="A string is just a bunch of text, and is also one of six value types in Javascript. Strings can hold any character, including spaces, and are super-easy to spot because they’re always inside single or double quotation marks. You can put single or double quotation marks inside strings if you “escape” them with a backslash.">
+                strings
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre> <span class="keyword">var</span> string = <span class="string"><span class="delimiter">"</span><span class="content">hello, I</span><span class="char">\'</span><span class="content">m a string!</span><span class="delimiter">"</span></span><br> <span class="keyword">var</span> me_too = <span class="string"><span class="delimiter">'</span><span class="content">I</span><span class="char">\'</span><span class="content">m also a string.</span><span class="delimiter">'</span></span></pre></div>
+</div>
+
+                </div>
+              </span>
+          </div>
+        <h2>Project 5: Build a Madlibs Game</h2>
+          <div class="skills">
+              <span class="skill
+                skill-type-javascript
+                has-skill-false" data-name="array" data-description="An array is a data type that can hold a list of items. Those items can be strings, numbers, etc. Arrays have lengths, and each item in them occupies a numerical position; the numbers start from zero.">
+                array
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="keyword">var</span> array = [thing, nextThing, anotherThing];</pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-javascript
+                has-skill-false" data-name="length" data-description="Length is a JQuery function that tells you the number of elements (i.e. little data storage boxes) in an array. You can use it to count other things, too, like the number of characters in a string.">
+                length
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre>alert(list.length);</pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-javascript
+                has-skill-false" data-name="html function" data-description="The jQuery html function allows you to move content that&#39;s generated or captured by your JavaScript into your HTML. It basically lets your JavaScript read and rewrite your HTML.">
+                html function
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="predefined">$</span>(<span class="string"><span class="delimiter">'</span><span class="content">button</span><span class="delimiter">'</span></span>).click(<span class="keyword">function</span>() {<br>&nbsp;&nbsp;&nbsp;(<span class="string"><span class="delimiter">'</span><span class="content">p</span><span class="delimiter">'</span></span>).html(<span class="string"><span class="delimiter">"</span><span class="content">you clicked a button!</span><span class="delimiter">"</span></span>);<br>});</pre></div>
+</div>
+
+                </div>
+              </span>
+          </div>
+          <div class="skills">
+          </div>
+          <div class="skills">
+              <span class="skill
+                skill-type-javascript
+                has-skill-false" data-name="if " data-description="if is a conditional statement in JavaScript. It requires two parts: a condition (in parentheses), and an action, {in curly braces}. If the condition is true, the &quot;action&quot; code will run.">
+                if 
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="keyword">if</span> (something) {<br>&nbsp;&nbsp;&nbsp;do a thing;<br>}</pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-javascript
+                has-skill-false" data-name="else" data-description="else is a conditional statement in JavaScript that only works if it immediately follows an if statement. It provides an alternative to the action contained in an if statement. The if statement says &quot;if X is true, do Y.&quot; The else statement says &quot;or else, do Z.&quot;">
+                else
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="keyword">if</span> (something) {<br>&nbsp;&nbsp;&nbsp;do a thing;<br>}<br>else {<br>&nbsp;&nbsp;&nbsp;do another thing;<br>}</pre></div>
+</div>
+
+                </div>
+              </span>
+          </div>
+          <div class="skills">
+              <span class="skill
+                skill-type-javascript
+                has-skill-false" data-name="!" data-description="You can use an exclamation point as a shortcut method to negate almost anything in Javascript.">
+                !
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="integer">500</span> != <span class="integer">100</span>;<br>!<span class="predefined-constant">true</span> = <span class="predefined-constant">false</span>;<br>!<span class="predefined-constant">false</span> = <span class="predefined-constant">true</span>;</pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-javascript
+                has-skill-false" data-name="val()" data-description="Val is a JQuery method. It’s used to grab values out of form elements &amp;lt;input&amp;gt;, &amp;lt;select&amp;gt;, and &amp;lt;textarea&amp;gt;. A less common use to to put content into forms.">
+                val()
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre>alert(<span class="predefined">$</span>(<span class="string"><span class="delimiter">'</span><span class="content">input</span><span class="delimiter">'</span></span>).val());</pre></div>
+</div>
+
+                </div>
+              </span>
+              <span class="skill
+                skill-type-javascript
+                has-skill-false" data-name="push()" data-description="Push is associated with arrays, and used to add values to an existing or empty array.">
+                push()
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="keyword">var</span> houses = []<br> houses(<span class="string"><span class="delimiter">"</span><span class="content">stark</span><span class="delimiter">"</span></span>, <span class="string"><span class="delimiter">"</span><span class="content">lannister</span><span class="delimiter">"</span></span>, <span class="string"><span class="delimiter">"</span><span class="content">baratheon</span><span class="delimiter">"</span></span>, <span class="string"><span class="delimiter">"</span><span class="content">targaryen</span><span class="delimiter">"</span></span>);</pre></div>
+</div>
+
+                </div>
+              </span>
+          </div>
+          <div class="skills">
+              <span class="skill
+                skill-type-javascript
+                has-skill-false" data-name="hide()" data-description="Hide is the easiest way to make an element disappear! By default, the element you name vanishes immediately, but hide() also lets you add options like timing and easing to make it more animated.">
+                hide()
+                <div class="skill-example-holder">
+                  <div class="CodeRay">
+  <div class="code"><pre><span class="predefined">$</span>(<span class="string"><span class="delimiter">"</span><span class="content">div</span><span class="delimiter">"</span></span>).hide();</pre></div>
+</div>
+
+                </div>
+              </span>
+          </div>
+    </div>
+  </div>
+
+
+  <!-- Forum -->
+  <div id="tab-forum" class="tab">
+    <h1>Stuck?</h1>
+    <p>Ask the community for help in our Facebook group!</p>
+    <a href="https://www.facebook.com/groups/845537888806274/" target="_blank" class="button">Launch the Facebook Group</a>
+  </div>
+
+  <!-- Editor -->
+  <div id="editor" class=" ace_editor ace-tomorrow-night-eighties ace_dark ace_focus"><textarea class="ace_text-input" wrap="off" autocapitalize="off" spellcheck="false" style="opacity: 0; height: 16px; width: 7.20125px; right: 547.799px; bottom: 286px;"></textarea><div class="ace_gutter"><div class="ace_layer ace_gutter-layer ace_folding-enabled" style="margin-top: 0px; height: 350px; width: 41px;"><div class="ace_gutter-cell " style="height: 16px;">1</div><div class="ace_gutter-cell " style="height: 16px;">2</div></div><div class="ace_gutter-active-line" style="top: 16px; height: 16px;"></div></div><div class="ace_scroller" style="left: 41px; right: 0px; bottom: 0px;"><div class="ace_content" style="margin-top: 0px; width: 559px; height: 350px; margin-left: 0px;"><div class="ace_layer ace_print-margin-layer"><div class="ace_print-margin" style="left: 580.1px; visibility: hidden;"></div></div><div class="ace_layer ace_marker-layer"><div class="ace_active-line" style="height:16px;top:16px;left:0;right:0;"></div></div><div class="ace_layer ace_text-layer" style="padding: 0px 4px;"><div class="ace_line_group"><div class="ace_line" style="height:16px">index.html&nbsp;&nbsp;</div></div><div class="ace_line_group"><div class="ace_line" style="height:16px"></div></div></div><div class="ace_layer ace_marker-layer"></div><div class="ace_layer ace_cursor-layer"><div class="ace_cursor" style="left: 4px; top: 16px; width: 7.20125px; height: 16px;"></div></div></div></div><div style="height: auto; width: auto; top: -100px; left: -100px; visibility: hidden; position: fixed; overflow: visible; white-space: nowrap;">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</div><div class="ace_scrollbar" style="width: 20px; display: none; overflow-y: scroll; bottom: 0px;"><div class="ace_scrollbar-inner" style="width: 20px; height: 32px;"></div></div><div class="ace_scrollbar-h" style="height: 20px; display: none; overflow-x: scroll; left: 41px; right: 0px;"><div class="ace_scrollbar-inner" style="height: 20px; width: 559px;"></div></div></div>
+
+</div><!-- /workspace -->
+
+<script>
+  window.PAGEDATA = {"project":{"id":15,"default_html":"","slug":"annas-website-1","freeform":false,"tumblr":false,"slides":[{"id":554,"project_id":15,"image":{"url":"https://ga-dash.s3.amazonaws.com/production/uploads/slides/15/40e6365ad54f8546c6852ba028f3d9cc.jpg"},"sort_order":13,"created_at":"2013-08-23T00:55:40.386Z","updated_at":"2014-03-28T16:09:40.256Z","checkpoint":false},{"id":558,"project_id":15,"image":{"url":"https://ga-dash.s3.amazonaws.com/production/uploads/slides/15/49b0dec4ab62bfb0eff998cfe83db607.jpg"},"sort_order":9,"created_at":"2013-08-23T00:55:40.708Z","updated_at":"2013-08-23T00:56:27.438Z","checkpoint":false},{"id":552,"project_id":15,"image":{"url":"https://ga-dash.s3.amazonaws.com/production/uploads/slides/15/7ddfd2a68e09dc05359cf0ccedb08553.jpg"},"sort_order":10,"created_at":"2013-08-23T00:55:39.494Z","updated_at":"2013-08-23T00:56:27.445Z","checkpoint":false},{"id":566,"project_id":15,"image":{"url":"https://ga-dash.s3.amazonaws.com/production/uploads/slides/15/9bc6e90100ebf3cd8b15ac80a4d58aa9.jpg"},"sort_order":4,"created_at":"2013-08-23T00:55:41.377Z","updated_at":"2014-03-28T16:08:01.955Z","checkpoint":false},{"id":572,"project_id":15,"image":{"url":"https://ga-dash.s3.amazonaws.com/production/uploads/slides/15/b5552d08ea1763876db7f94ae155c4e1.jpg"},"sort_order":12,"created_at":"2013-08-23T00:55:41.884Z","updated_at":"2013-08-23T00:56:27.458Z","checkpoint":true},{"id":555,"project_id":15,"image":{"url":"https://ga-dash.s3.amazonaws.com/production/uploads/slides/15/1339ac74edece3a571edc5f261d88c76.jpg"},"sort_order":15,"created_at":"2013-08-23T00:55:40.467Z","updated_at":"2014-03-28T16:11:05.742Z","checkpoint":false},{"id":553,"project_id":15,"image":{"url":"https://ga-dash.s3.amazonaws.com/production/uploads/slides/15/dda830c4cdba113006a9cc6eea1ec261.jpg"},"sort_order":6,"created_at":"2013-08-23T00:55:40.273Z","updated_at":"2014-03-28T16:08:44.920Z","checkpoint":false},{"id":573,"project_id":15,"image":{"url":"https://ga-dash.s3.amazonaws.com/production/uploads/slides/15/cf10ec38aa2f38a8cdd3d0d72508adbc.jpg"},"sort_order":17,"created_at":"2013-08-23T00:55:41.995Z","updated_at":"2014-03-28T16:10:52.492Z","checkpoint":false},{"id":575,"project_id":15,"image":{"url":"https://ga-dash.s3.amazonaws.com/production/uploads/slides/15/0df65dcf1e25e450e3dca469ec3f7bb7.jpg"},"sort_order":11,"created_at":"2013-08-23T00:55:42.214Z","updated_at":"2014-03-28T16:09:03.788Z","checkpoint":false},{"id":567,"project_id":15,"image":{"url":"https://ga-dash.s3.amazonaws.com/production/uploads/slides/15/8f42d054a04df52fe505b881188c6930.jpg"},"sort_order":18,"created_at":"2013-08-23T00:55:41.484Z","updated_at":"2014-03-28T16:11:28.588Z","checkpoint":false},{"id":557,"project_id":15,"image":{"url":"https://ga-dash.s3.amazonaws.com/production/uploads/slides/15/a2801a4d2cc1c367b16e61764ce3c150.jpg"},"sort_order":16,"created_at":"2013-08-23T00:55:40.656Z","updated_at":"2013-08-23T00:56:27.535Z","checkpoint":false},{"id":560,"project_id":15,"image":{"url":"https://ga-dash.s3.amazonaws.com/production/uploads/slides/15/bca96e399f28cbe4e81d1fb808a62661.jpg"},"sort_order":23,"created_at":"2013-08-23T00:55:40.866Z","updated_at":"2014-03-28T16:12:10.764Z","checkpoint":true},{"id":556,"project_id":15,"image":{"url":"https://ga-dash.s3.amazonaws.com/production/uploads/slides/15/634670da79e6688c975d026d88dbd74b.jpg"},"sort_order":20,"created_at":"2013-08-23T00:55:40.544Z","updated_at":"2014-03-28T16:11:53.261Z","checkpoint":false},{"id":562,"project_id":15,"image":{"url":"https://ga-dash.s3.amazonaws.com/production/uploads/slides/15/b9b521f444fd339b7034617fba59f359.jpg"},"sort_order":21,"created_at":"2013-08-23T00:55:40.994Z","updated_at":"2014-03-28T16:11:40.868Z","checkpoint":false},{"id":574,"project_id":15,"image":{"url":"https://ga-dash.s3.amazonaws.com/production/uploads/slides/15/9ea12b9bd297e4d54d2878a494b97d98.jpg"},"sort_order":1,"created_at":"2013-08-23T00:55:42.081Z","updated_at":"2013-08-23T00:56:27.380Z","checkpoint":false},{"id":570,"project_id":15,"image":{"url":"https://ga-dash.s3.amazonaws.com/production/uploads/slides/15/9507679d6b5372e2666302b48e432d7f.jpg"},"sort_order":2,"created_at":"2013-08-23T00:55:41.726Z","updated_at":"2013-08-23T00:56:27.388Z","checkpoint":false},{"id":579,"project_id":15,"image":{"url":"https://ga-dash.s3.amazonaws.com/production/uploads/slides/15/cfcfa33af26b72d80c246e44c8ef0bee.jpg"},"sort_order":28,"created_at":"2013-08-23T00:55:42.518Z","updated_at":"2014-03-28T16:14:02.587Z","checkpoint":false},{"id":568,"project_id":15,"image":{"url":"https://ga-dash.s3.amazonaws.com/production/uploads/slides/15/c992cb15a8f6282245f46cd5a978e849.jpg"},"sort_order":27,"created_at":"2013-08-23T00:55:41.559Z","updated_at":"2014-03-28T16:12:10.775Z","checkpoint":true},{"id":561,"project_id":15,"image":{"url":"https://ga-dash.s3.amazonaws.com/production/uploads/slides/15/673be8a9e454168e18d0902edc17b6e5.jpg"},"sort_order":5,"created_at":"2013-08-23T00:55:40.932Z","updated_at":"2013-08-23T00:56:27.408Z","checkpoint":false},{"id":559,"project_id":15,"image":{"url":"https://ga-dash.s3.amazonaws.com/production/uploads/slides/15/4191586eba6eacaee86ad65092f740b6.jpg"},"sort_order":7,"created_at":"2013-08-23T00:55:40.808Z","updated_at":"2013-08-23T00:56:27.422Z","checkpoint":false},{"id":578,"project_id":15,"image":{"url":"https://ga-dash.s3.amazonaws.com/production/uploads/slides/15/8dbee34003e997d14024352c604d4a52.jpg"},"sort_order":8,"created_at":"2013-08-23T00:55:42.450Z","updated_at":"2013-08-23T00:56:27.429Z","checkpoint":false},{"id":569,"project_id":15,"image":{"url":"https://ga-dash.s3.amazonaws.com/production/uploads/slides/15/239b96f5a791d11c262e501f874334fd.jpg"},"sort_order":29,"created_at":"2013-08-23T00:55:41.631Z","updated_at":"2014-03-28T16:12:10.780Z","checkpoint":false},{"id":563,"project_id":15,"image":{"url":"https://ga-dash.s3.amazonaws.com/production/uploads/slides/15/4927f1c5d88e8700ffe657e8225a29c6.jpg"},"sort_order":26,"created_at":"2013-08-23T00:55:41.117Z","updated_at":"2014-03-28T16:13:46.750Z","checkpoint":false},{"id":571,"project_id":15,"image":{"url":"https://ga-dash.s3.amazonaws.com/production/uploads/slides/15/fe17938f2c52b0cd2ebaa63ccf44bc97.jpg"},"sort_order":25,"created_at":"2013-08-23T00:55:41.813Z","updated_at":"2014-03-28T16:13:27.963Z","checkpoint":false},{"id":577,"project_id":15,"image":{"url":"https://ga-dash.s3.amazonaws.com/production/uploads/slides/15/1fe2fe3e30e06f5172b4304ef2a070b5.jpg"},"sort_order":24,"created_at":"2013-08-23T00:55:42.363Z","updated_at":"2014-03-28T16:13:15.282Z","checkpoint":false},{"id":576,"project_id":15,"image":{"url":"https://ga-dash.s3.amazonaws.com/production/uploads/slides/15/14eab00a6b1f6ca48efbabdeb658003d.jpg"},"sort_order":14,"created_at":"2013-08-23T00:55:42.271Z","updated_at":"2013-08-23T00:57:21.069Z","checkpoint":true},{"id":565,"project_id":15,"image":{"url":"https://ga-dash.s3.amazonaws.com/production/uploads/slides/15/b55a6f81177f85e7d73bb36afe077ec5.jpg"},"sort_order":19,"created_at":"2013-08-23T00:55:41.301Z","updated_at":"2013-08-23T00:57:54.455Z","checkpoint":true},{"id":564,"project_id":15,"image":{"url":"https://ga-dash.s3.amazonaws.com/production/uploads/slides/15/b57e1e402d8c7abbc9e481f764656f87.jpg"},"sort_order":3,"created_at":"2013-08-23T00:55:41.191Z","updated_at":"2014-03-28T16:08:14.273Z","checkpoint":false},{"id":2261,"project_id":15,"image":{"url":"https://ga-dash.s3.amazonaws.com/production/uploads/slides/15/0c08a23c5cfef96c9c1ce518971d626b.jpg"},"sort_order":22,"created_at":"2014-03-28T16:12:10.656Z","updated_at":"2014-03-28T16:13:15.257Z","checkpoint":false}],"tasks":[{"id":178,"slide_id":572,"regex":"/[^]*\u003ch1\u003e.*\u003c\\/h1\u003e[^]*/i","prompt":"Write this in the editor below: \u003ch1\u003eAnna Dowlin\u003c/h1\u003e","created_at":"2013-08-23T00:56:27.477Z","updated_at":"2013-08-23T00:56:27.477Z","project_id":15,"sort_order":null},{"id":180,"slide_id":565,"regex":"/[^]*\u003cinput type=\"email\"\u003e[^]*/i","prompt":"At the bottom, write \u003cinput type=\"email\"\u003e","created_at":"2013-08-23T00:57:54.461Z","updated_at":"2013-08-23T00:57:54.461Z","project_id":15,"sort_order":null},{"id":181,"slide_id":560,"regex":"/[^]*\u003cinput type=\"submit\"\u003e[^]*/i","prompt":"Make another input with type=\"submit\"","created_at":"2013-08-23T00:58:21.998Z","updated_at":"2013-08-23T00:58:21.998Z","project_id":15,"sort_order":null},{"id":179,"slide_id":576,"regex":"/[^]*\u003cp\u003e.*\u003c\\/p\u003e[^]*/i","prompt":"Write \"Hi! I'm Anna Dowlin, a NYC-based marketer. Say hello!\" between an opening and a closing paragraph tag","created_at":"2013-08-23T00:57:21.075Z","updated_at":"2014-03-28T16:10:43.876Z","project_id":15,"sort_order":null},{"id":182,"slide_id":568,"regex":"/[^]*\u003cinput type=\"email\"[\\s]*placeholder=\"Your email\"\u003e[^]*/i","prompt":"Add placeholder=\"Your email\" to the email input. (If you need a hint, look at the previous slide)","created_at":"2013-08-23T00:58:52.432Z","updated_at":"2014-01-03T22:26:33.251Z","project_id":15,"sort_order":null}],"skills":[{"id":94,"task_id":178,"name":"h1-h6","category":"html","description":"Document headings and sub-headings. The bigger the number, the smaller the size.","example":"\u003ch1\u003eI’m a main heading\u003c/h1\u003e\\n\u003ch2\u003eI’m a subheading\u003c/h2\u003e\\n\u003ch6\u003eI’m the smallest\u003c/h6\u003e","created_at":"2013-08-23T00:56:27.499Z","updated_at":"2013-10-14T17:45:31.710Z","formatted_example":"\u003cdiv class=\"CodeRay\"\u003e\n  \u003cdiv class=\"code\"\u003e\u003cpre\u003e\u003cspan class=\"tag\"\u003e\u0026lt;h1\u0026gt;\u003c/span\u003eI’m a main heading\u003cspan class=\"tag\"\u003e\u0026lt;/h1\u0026gt;\u003c/span\u003e\u003cbr\u003e\u003cspan class=\"tag\"\u003e\u0026lt;h2\u0026gt;\u003c/span\u003eI’m a subheading\u003cspan class=\"tag\"\u003e\u0026lt;/h2\u0026gt;\u003c/span\u003e\u003cbr\u003e\u003cspan class=\"tag\"\u003e\u0026lt;h6\u0026gt;\u003c/span\u003eI’m the smallest\u003cspan class=\"tag\"\u003e\u0026lt;/h6\u0026gt;\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003c/div\u003e\n","tumblr":false},{"id":96,"task_id":180,"name":"email input","category":"html","description":"A type of input that takes user email addresses. New in HTML5.","example":"\u003cinput type=\"email\" placeholder=\"Your email\"\u003e","created_at":"2013-08-23T00:57:54.468Z","updated_at":"2013-10-14T17:45:31.742Z","formatted_example":"\u003cdiv class=\"CodeRay\"\u003e\n  \u003cdiv class=\"code\"\u003e\u003cpre\u003e\u003cspan class=\"tag\"\u003e\u0026lt;input\u003c/span\u003e \u003cspan class=\"attribute-name\"\u003etype\u003c/span\u003e=\u003cspan class=\"string\"\u003e\u003cspan class=\"delimiter\"\u003e\u0026quot;\u003c/span\u003e\u003cspan class=\"content\"\u003eemail\u003c/span\u003e\u003cspan class=\"delimiter\"\u003e\u0026quot;\u003c/span\u003e\u003c/span\u003e \u003cspan class=\"attribute-name\"\u003eplaceholder\u003c/span\u003e=\u003cspan class=\"string\"\u003e\u003cspan class=\"delimiter\"\u003e\u0026quot;\u003c/span\u003e\u003cspan class=\"content\"\u003eYour email\u003c/span\u003e\u003cspan class=\"delimiter\"\u003e\u0026quot;\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"tag\"\u003e\u0026gt;\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003c/div\u003e\n","tumblr":false},{"id":97,"task_id":181,"name":"submit input","category":"html","description":"Makes a button to submit information from a form to a server.","example":"\u003cinput type=\"submit\"\u003e","created_at":"2013-08-23T00:58:22.005Z","updated_at":"2013-10-14T17:45:31.750Z","formatted_example":"\u003cdiv class=\"CodeRay\"\u003e\n  \u003cdiv class=\"code\"\u003e\u003cpre\u003e\u003cspan class=\"tag\"\u003e\u0026lt;input\u003c/span\u003e \u003cspan class=\"attribute-name\"\u003etype\u003c/span\u003e=\u003cspan class=\"string\"\u003e\u003cspan class=\"delimiter\"\u003e\u0026quot;\u003c/span\u003e\u003cspan class=\"content\"\u003esubmit\u003c/span\u003e\u003cspan class=\"delimiter\"\u003e\u0026quot;\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"tag\"\u003e\u0026gt;\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003c/div\u003e\n","tumblr":false},{"id":95,"task_id":179,"name":"p","category":"html","description":"The p tag makes paragraph elements","example":"\u003cp\u003eI am a cool paragraph, full of text\u003c/p\u003e","created_at":"2013-08-23T00:57:21.081Z","updated_at":"2013-10-14T17:45:31.735Z","formatted_example":"\u003cdiv class=\"CodeRay\"\u003e\n  \u003cdiv class=\"code\"\u003e\u003cpre\u003e\u003cspan class=\"tag\"\u003e\u0026lt;p\u0026gt;\u003c/span\u003eI am a cool paragraph, full of text\u003cspan class=\"tag\"\u003e\u0026lt;/p\u0026gt;\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003c/div\u003e\n","tumblr":false},{"id":98,"task_id":182,"name":"placeholder","category":"html","description":"Puts placeholder text in an input. The text will disappear when a user types their own content.","example":"\u003cinput type=\"text\" placeholder=\"Your name\"\u003e","created_at":"2013-08-23T00:58:52.437Z","updated_at":"2013-10-14T17:45:31.759Z","formatted_example":"\u003cdiv class=\"CodeRay\"\u003e\n  \u003cdiv class=\"code\"\u003e\u003cpre\u003e\u003cspan class=\"tag\"\u003e\u0026lt;input\u003c/span\u003e \u003cspan class=\"attribute-name\"\u003etype\u003c/span\u003e=\u003cspan class=\"string\"\u003e\u003cspan class=\"delimiter\"\u003e\u0026quot;\u003c/span\u003e\u003cspan class=\"content\"\u003etext\u003c/span\u003e\u003cspan class=\"delimiter\"\u003e\u0026quot;\u003c/span\u003e\u003c/span\u003e \u003cspan class=\"attribute-name\"\u003eplaceholder\u003c/span\u003e=\u003cspan class=\"string\"\u003e\u003cspan class=\"delimiter\"\u003e\u0026quot;\u003c/span\u003e\u003cspan class=\"content\"\u003eYour name\u003c/span\u003e\u003cspan class=\"delimiter\"\u003e\u0026quot;\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"tag\"\u003e\u0026gt;\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003c/div\u003e\n","tumblr":false}]},"nextProjectSlug":"annas-website-2","currentUserId":"468194","currentSlideId":574,"userTasks":[],"userProjectCode":null,"currentUserUsername":"Shoshimundle","currentUserPicture":"https://secure.gravatar.com/avatar/f1180ed20aa84e084bc1b55e77b44c77.png?r=PG","admin":false};
+</script>
+</div><!-- #show-project -->
+
+
+  <script type="text/javascript">
+  var analytics=analytics||[];(function(){var e=["identify","track","trackLink","trackForm","trackClick","trackSubmit","page","pageview","ab","alias","ready","group","on","once","off"],t=function(e){return function(){analytics.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var n=0;n<e.length;n++)analytics[e[n]]=t(e[n])})(),analytics.load=function(e){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src=("https:"===document.location.protocol?"https://":"http://")+"d2dq2ahtl5zl1z.cloudfront.net/analytics.js/v1/"+e+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)};
+
+  analytics.load('ggdhx4ykai');
+
+
+      var user_attributes = {
+        name: 'Shoshi Mundle',
+        email: 'ksmundle@hotmail.com',
+        current_project: '1',
+        username: 'Shoshimundle',
+        current_sign_in_ip: '208.185.23.206',
+        created_at: '2016-12-19T23:24:06'
+      }
+
+        analytics.identify('468194', user_attributes);
+
+
+</script>
+
+  <script src="./Dash prework homework 1_files/application-a2690ad184ca07dce4648a29a5744a1e3506f0d2c6f870f1c6838a79e4915cf6.js"></script>
+  
+  <img src="./Dash prework homework 1_files/trackpxl" height="1" width="1" border="0" alt="">
+  <!-- Facebook Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+  document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+  fbq('init', '1467656470148115');
+  fbq('track', 'PageView');
+  </script>
+  <noscript>&lt;img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1467656470148115&amp;ev=PageView&amp;noscript=1"
+  /&gt;</noscript>
+  <!-- End Facebook Pixel Code -->
+
+
+<img src="./Dash prework homework 1_files/9ea12b9bd297e4d54d2878a494b97d98.jpg" style="display:none;"><img src="./Dash prework homework 1_files/9507679d6b5372e2666302b48e432d7f.jpg" style="display:none;"><img src="./Dash prework homework 1_files/b57e1e402d8c7abbc9e481f764656f87.jpg" style="display:none;"><img src="./Dash prework homework 1_files/9bc6e90100ebf3cd8b15ac80a4d58aa9.jpg" style="display:none;"><img src="./Dash prework homework 1_files/673be8a9e454168e18d0902edc17b6e5.jpg" style="display:none;"><img src="./Dash prework homework 1_files/dda830c4cdba113006a9cc6eea1ec261.jpg" style="display:none;"><img src="./Dash prework homework 1_files/4191586eba6eacaee86ad65092f740b6.jpg" style="display:none;"><img src="./Dash prework homework 1_files/8dbee34003e997d14024352c604d4a52.jpg" style="display:none;"><img src="./Dash prework homework 1_files/49b0dec4ab62bfb0eff998cfe83db607.jpg" style="display:none;"><img src="./Dash prework homework 1_files/7ddfd2a68e09dc05359cf0ccedb08553.jpg" style="display:none;"><img src="./Dash prework homework 1_files/0df65dcf1e25e450e3dca469ec3f7bb7.jpg" style="display:none;"><img src="./Dash prework homework 1_files/b5552d08ea1763876db7f94ae155c4e1.jpg" style="display:none;"><img src="./Dash prework homework 1_files/40e6365ad54f8546c6852ba028f3d9cc.jpg" style="display:none;"><img src="./Dash prework homework 1_files/14eab00a6b1f6ca48efbabdeb658003d.jpg" style="display:none;"><img src="./Dash prework homework 1_files/1339ac74edece3a571edc5f261d88c76.jpg" style="display:none;"><img src="./Dash prework homework 1_files/a2801a4d2cc1c367b16e61764ce3c150.jpg" style="display:none;"><img src="./Dash prework homework 1_files/cf10ec38aa2f38a8cdd3d0d72508adbc.jpg" style="display:none;"><img src="./Dash prework homework 1_files/8f42d054a04df52fe505b881188c6930.jpg" style="display:none;"><img src="./Dash prework homework 1_files/b55a6f81177f85e7d73bb36afe077ec5.jpg" style="display:none;"><img src="./Dash prework homework 1_files/634670da79e6688c975d026d88dbd74b.jpg" style="display:none;"><img src="./Dash prework homework 1_files/b9b521f444fd339b7034617fba59f359.jpg" style="display:none;"><img src="./Dash prework homework 1_files/0c08a23c5cfef96c9c1ce518971d626b.jpg" style="display:none;"><img src="./Dash prework homework 1_files/bca96e399f28cbe4e81d1fb808a62661.jpg" style="display:none;"><img src="./Dash prework homework 1_files/1fe2fe3e30e06f5172b4304ef2a070b5.jpg" style="display:none;"><img src="./Dash prework homework 1_files/fe17938f2c52b0cd2ebaa63ccf44bc97.jpg" style="display:none;"><img src="./Dash prework homework 1_files/4927f1c5d88e8700ffe657e8225a29c6.jpg" style="display:none;"><img src="./Dash prework homework 1_files/c992cb15a8f6282245f46cd5a978e849.jpg" style="display:none;"><img src="./Dash prework homework 1_files/cfcfa33af26b72d80c246e44c8ef0bee.jpg" style="display:none;"><img src="./Dash prework homework 1_files/239b96f5a791d11c262e501f874334fd.jpg" style="display:none;"></body></html>
