@@ -1,0 +1,41 @@
+h1 {
+	background: black;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+.outer {
+	background: grey;
+}
+
+.lorem {
+	background: tomato;
+}
+
+.lorem-1 {
+	color: purple;
+	text-align: center;
+	border: 5px solid red;
+	padding: 15px;
+	font-weight: bold;
+	font-family: helvetica;
+}
+
+.lorem-2 {
+	color: green;
+	text-align: center;
+	border: 5px solid red;
+	padding: 15px;
+	font-weight: bold;
+	font-family: helvetica;
+}
+
+.lorem-3 {
+	color: yellow;
+	text-align: center;
+	border: 5px solid red;
+	padding: 15px;
+	font-weight: bold;
+	font-family: helvetica;
+}

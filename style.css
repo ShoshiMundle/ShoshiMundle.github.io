@@ -1,5 +1,13 @@
-body {
+.outer {
+	color: orange;
+	font-family: helvetica;
+	background: black;
+}
+
+.inner {
     background-color: gainsboro;
     font-style: italic;
     color: blue;
+    text-align: center;
+    padding: 20px;
 }
