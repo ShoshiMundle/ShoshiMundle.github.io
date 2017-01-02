@@ -1,0 +1,43 @@
+h1 {
+	color: red;
+	text-align: left;
+	color: red;
+	font-size: 50px;
+	font-family: lato
+	line-height: 1.5px;
+}
+
+h3 {
+	color: grey;
+
+}
+
+body {
+	background-color: white;
+}
+
+li{
+	display: inline;
+	color: grey;
+	padding: 45px
+}
+
+p1 {
+	color: black;
+	font-size: 5px;
+}
+
+text {
+	color: red;
+	text-align: right;
+}
+
+p {
+	color: black;
+	font-size: 
+}
+
+p2 {
+	color: black;
+	font-size: right;
+}
