@@ -1,0 +1,41 @@
+
+
+.wrapper {
+	width: 800px;
+}
+
+header {
+	height: 200px;
+	background: red;
+	margin: 10px;
+}
+
+.left {
+	height: 400px;
+	background: green;
+	width: 500px;
+	float: left;
+	/*opacity: .2;  this makes the blocks opaque so i can see what is behind them*/
+	margin: 10px;
+}
+
+.right {
+	height: 400px;
+	background: blue;
+	width: 300px;
+	float: right;
+	margin: 10px;
+}
+
+footer {
+	height:200px;
+	background: orange;
+	margin: 10px;
+}
+
+.clearfix:after {
+	content: ".";
+	display: hidden;
+	height: 0;
+	clear: both;
+}
