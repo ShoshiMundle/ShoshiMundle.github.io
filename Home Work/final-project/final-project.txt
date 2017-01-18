@@ -1,0 +1,22 @@
+Proposal:
+
+I would like to create a website for shopping for 
+-household items: candles, napkins, curtains etc. 
+-Beauty: TBD
+-Clothes: TBD
+
+Would like to tie it to Instagram, FB, twitter and Pinterest
+
+
+Would like to top to include images (something like most popular items)
+
+Would like date at the time
+
+
+Would like a NAV bar to include: home, Shop the collection, TBD
+
+Would like a search button
+
+Would like copyright
+
+Would like payment options (just plan on putting images)
