@@ -1,0 +1,167 @@
+img {
+	display: block;
+	margin: 10px 0;
+	max-width: 100%;
+}
+
+body {
+	font-family: 'Source Sans Pro';
+	font-size: 20px;
+	line-height: 1.5;
+	background: #fff;
+	color: #444;
+}
+
+#header {
+	background-color: white;
+	width: 100%;
+	padding-right: 2px;
+	padding-left: 2px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+
+#header h1 {
+	margin-right: 9px;
+	color: lightblue;
+	font-family: serif;
+	float: left;
+	display: inline;
+}
+
+h1 {
+	margin-right: 9px;
+	color: lightblue;
+	font-family: serif;
+	float: left;
+}
+
+.clearfix:after {
+      content:"";
+      display: table;
+      clear: both;
+}
+
+.nav li	{
+	display: inline-block;
+	font-family: 'Oswald';
+	color: white;
+}
+
+.nav {
+	float: right;
+	padding-left: 10px;
+	list-style-type: none;
+	width: 35%;
+}
+
+a:hover {
+	color: #a00;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+/*#content	{
+	border-top: 5px solid yellow;
+	font-family: 'Merriweather', serif;
+	background-color: grey;
+	color: black;
+	font-style: italic;
+	text-align: center;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+}*/
+
+#wrapper {
+	width: 1000px;
+	height: 1000px;
+	margin: 0 auto;
+	padding: 50;
+	color: red;
+	/*background-image: url("../img/animal-1751300_1280.png"); */
+	position: absolute;
+	
+}
+
+
+
+
+/*.border1 {
+	width: 15px;
+	height: 15px;
+	font-size: 15px;
+	text-align: center;
+}*/
+
+.c1 {
+	color: blue;
+	font-family: 'Merriweather', serif;
+	font-size: 1.5em;
+	/*float: center;*/
+	text-align: center; 
+	height: 10px;
+	width: 85%;
+	/*border: 5px solid red;*/
+	padding: 10px;
+}
+
+#main {
+	margin: 10px;
+	padding: 10px;
+}
+
+.c2 {
+	color: blue;
+	font-family: helvetica; 
+	font-size: 1em;
+	text-align: center;
+	height: 10px;
+	width: 70%;
+	padding: 10px;
+}
+
+.b1 {
+	color: black;
+	font-family: 'Merriweather', serif;
+	font-size: 2em;
+	width: 35px;
+	height: 35px;
+	background-color: yellow;
+	font-weight: bold;
+}
+
+/*p {
+	font-size: 1em;
+	font-family: 'Merriweather', serif;
+	width: 20px;
+	height: 20px;
+	color: blue;
+	text-align: center;
+}
+*/
+footer {
+	color: blue;
+	font-family: serif;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+}
+
+/*--------modile view-------*/
+
+/*create mobile view*/
+@media (max-width: 400px) {
+	#header {
+		width: 100%;
+	}
+#nav {
+	float: none;
+	width: 100%;
+}
+
+}
