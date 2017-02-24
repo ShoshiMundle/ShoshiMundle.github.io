@@ -3,57 +3,82 @@
 	<head>
 		<title>Shoshi</title>
 
-		<!-- <link href='https://pixabay.com/en/animal-bird-clips-flying-1751300/'> -->
-		<!-- PULL IN IMAGE FROM FOLDER <link rel="stylesheet" href="css/styles.css"> -->
+		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
-		<!-- FOR GUIDE FROM OLD PROJECT -->
-		<!-- <link href='https://fonts.googleapis.com/css?family=Oswald:700,400|Merriweather:700,700italic|Source+Sans+Pro' rel='stylesheet' type='text/css'> -->
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Reenie+Beanie" rel="stylesheet">
 
 		<link rel="stylesheet" href="css/styles.css">
+
+		<link rel="stylesheet" href="css/lightbox.css">
 	</head>
 
-	<body>
+<body>
 
-
-		<div id="header" class="clearfix">
-			<h1><a href="index.html">Pillars</a></h1>
-
+	<div id="map"></div>
+		<!-- <h1><a href="index.html">Pillars</a></h1> -->
+		<div class="container">
+			<div id="image">
 				<img src="img/animal-1751300_1280.png">
-
-				<input type="text" id="item">
-
-				<button id="clickme">Add Item</button>
-
-
-			<nav>
-				<ul class="nav">
-					<li><a href="#">Candles</a></li>
-					<li><a href="#">Napkins</a></li>
-					<li><a href="#">Curtains</a></li>
-				</ul>
-			</nav>
-
-		</div>
-
-		<div id="Flights of Fancy">
-			<h2>Future <span class = "Tradition"></h2>
-
-		</div>
-
-		<div id="wrapper">
-			<div class="border1">
-				<p class="c1">New arrivals just dropped in! Spring has arrived; a season of renewal, celebrating new flights of fancy. Welcome your guests home with this collection.</p>
 			</div>
 
-			<div class='main'>
-				<p class ="c2">Morning Glory - Night Shades</p>	
+			<!-- <button id="clickme">Add Item</button>
+			<input type="text" name=""> -->
+
+			<div class="clearfix">
+				<h1> Pillars</h1>
+
+				<nav>
+					<ul class="nav">
+						<li><a href="#">About</a></li>
+						<li><a href="#">Candles</a></li>
+						<li><a href="#">Napkins</a></li>
+						<li><a href="#">Curtains</a></li>
+					</ul>
+				</nav>
+
 			</div>
 
+			<div class="article"> 
+				<p class="flights">Flights of Fancy.</p>
+	
+				<!-- <p> Future Tradition.</p>
+ -->
+ 				<p> Future <span class ="tradition"> Tradition</span></p>
+	
+
+				<p class = "p1"> New arrivals just dropped in! Spring has arrived; a season of renewal, celebrating new flights of fancy. Welcome your guests home with this collection. Wax Candles, Electric Candes, Candelabrum - <span class= "gold"> Gold, </span> <span class="silver"> Silver</span> </p>
+
+				<p>Morning Glory - Night Shades</p>
+
+			</div>
+
+			<div class="categories clearfix">
+				<!-- <img src="img/candle.jpg"> -->
+				<a href="img/candle.jpg" data-lightbox="candle"><img src="img/candle.jpg" alt=""></a>
+				<img src="img/napkin.jpg">
+				<img src="img/Curtain.jpg">
+
+				<script src="js/lightbox.js"></script>
+
+			</div>
+
+			<div class="shopnow"> 
 				<button class="b1">Shop Now</button>
+			</div>
+
+
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+	<script src="js/app.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlF-Xx50C3oixTzcSavfbxl_qCI0FZ5PA&callback=initMap"
+    async defer></script>
+
+			
+			<footer>&#169; Pillars. Made in NY.</footer>
 		
 		</div>
-
-		<footer>&#169; Pillars. Made in NY.</footer>
+		
 
 </body>
 </html>
