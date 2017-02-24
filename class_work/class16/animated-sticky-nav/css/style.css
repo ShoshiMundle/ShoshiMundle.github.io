@@ -1,0 +1,36 @@
+.wrapper {
+	text-align: center;
+	padding-top: 50px;
+}
+
+body {
+	padding-top: 50px;
+}
+
+header {
+	background: SeaGreen;
+	height: 50px;
+	position: fixed;
+	/*width: 100%; by blocking this out I put a space between the header and the first pic*/
+	top: 0;
+	left: 0;
+	right: 0;
+	transition: all 2s;
+}
+
+
+.header-offset {
+	height: 25px;
+	background: tomato;
+}
+
+img {
+	width: 70%;
+	display: block;
+	margin: 30px auto 0;
+}
+
+h1 {
+	font-size: 40px;
+	text-align: center;
+}

@@ -1,0 +1,25 @@
+$(document).ready(function () {
+
+    var totalCost = 0;
+
+    $('#entry').submit(function(event){
+        
+        console.log('any-word-its-fine');
+        
+        event.preventDefault();
+        
+        var numInput = $('#newEntry').val();
+        
+        numInput = parseFloat(numInput);
+        
+        console.log(numInput);
+
+        $('#entries').append('<tr><td></td><td>' + numInput + '</td></tr>');
+
+        $('#newEntry').val('');
+
+        totalCost = totalCost + numInput;
+
+        $('#total').html('$' + totalCost);
+
+    })
